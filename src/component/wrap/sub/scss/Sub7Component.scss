@@ -1,0 +1,226 @@
+#sub7{
+    width: 100%;
+    height: auto;
+    .container{
+        width: 100%;
+        .title{
+            width: 100%;
+            height: auto;
+            margin: 45px 0;
+            h3{
+                font-size: 34px;
+                font-weight: 700;
+                text-align: center;
+            }
+        }
+        .event-menu{
+            width: 100%;
+            height: 62px;
+            background: rgb(248, 248, 248);
+                .btn-box{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    button{ 
+                        display: flex;
+                        align-items: center;
+                        height: 100%;    
+                        border: 0;
+                        background: rgb(248, 248, 248);
+                        &.Event-btn-online{
+                            height: 100%;
+                            margin-right: 90px;
+                            font-size: 18px;
+                            font-weight: 600;
+                            cursor: pointer;                           
+                        }
+                        &.Event-btn-market{
+                            height: 100%;
+                            font-size: 18px;
+                            font-weight: 600;
+                            cursor: pointer;                          
+                        }
+                    }
+                    
+                }                                                             
+        }
+        .event-container{
+            width: 1280px;
+            height: 100%;
+            margin: 47px 311.5px 0 311.5px;
+            padding-bottom: 100px;
+            .event-top{
+                width: 100%;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 10px;
+                .left{
+                    height: 100%;
+                    span{
+                        font-size: 14px;
+                        font-weight: 700;
+                    }
+                }
+                .right{
+                    height: 100%;
+                    #eventList{
+                        width: 155px;
+                        height: 38px;
+                        padding: 5px 25px 5px 15px;
+                        border: 1px solid rgb(229, 232, 234);
+                        appearance: none;
+                        background: url(../../../../../public/images/sub/sub7/drop_icon3.png) no-repeat calc(100% - 10px) 50%;
+                        background-size: 12px auto;
+                        option{
+                                font-size: 14px;
+                                color: rgb(102, 102, 102);
+                                line-height: 30px;  
+                        }
+                    }
+                }
+            }
+            .event-list-container{
+                width: 100%;               
+                .event-list-box{
+                    width: 100%;
+                    ul{
+                        width: 100%;
+                        li{
+                            width: 100%;                            
+                            display: flex;
+                            margin-top: 20px;
+                            img{
+                                width: 31%;                                
+                            }
+                            .text{
+                                width: 100%;                                
+                                padding: 56px 50px 0 48px;
+                                background: rgb(245, 246, 247);
+                                position: relative;
+                                h3{
+                                    color: rgb(54, 62, 74);
+                                    font-size: 24px;
+                                    font-weight: 700;
+                                }
+                                p{
+                                    margin-top: 75px;
+                                    color: rgb(153, 153, 153);
+                                    font: 16px;
+                                }
+                                a{
+                                    width: 120px;
+                                    height: 46px;
+                                    background: rgb(54, 62, 74);
+                                    position: absolute;
+                                    right: 50px;
+                                    bottom: 38px;
+                                    border-radius: 5px;
+                                    span{
+                                        font-size: 16px;
+                                        font-weight: 700;
+                                        width: auto;
+                                        height: 100%;
+                                        color: #fff;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                    }
+                                }
+                             }
+                        }
+                    }
+                    &.on{
+                        display: none;
+                    }
+                }
+                .market-list-box{
+                    width: 100%;
+                    display: none;
+                    ul{
+                        width: 100%;
+                        li{
+                            width: 100%;                            
+                            display: flex;
+                            margin-top: 20px;
+                            img{
+                                width: 31%;                               
+                            }
+                            .text{
+                                width: 100%;                               
+                                padding: 56px 50px 0 48px;
+                                background: rgb(245, 246, 247);
+                                position: relative;
+                                h3{
+                                    color: rgb(54, 62, 74);
+                                    font-size: 24px;
+                                    font-weight: 700;
+                                }
+                                p{
+                                    margin-top: 75px;
+                                    color: rgb(153, 153, 153);
+                                    font: 16px;
+                                }
+                                a{
+                                    width: 120px;
+                                    height: 46px;
+                                    background: rgb(54, 62, 74);
+                                    position: absolute;
+                                    right: 50px;
+                                    bottom: 38px;
+                                    border-radius: 5px;
+                                    span{
+                                        font-size: 16px;
+                                        font-weight: 700;
+                                        width: auto;
+                                        height: 100%;
+                                        color: #fff;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                    }
+                                }
+                             }
+                        }
+                    }
+                    &.on{
+                        display: block;
+                    }
+                }               
+            }          
+            .event-bottom{
+                width: 100%;
+                height: 28px;
+                margin-top: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                    button{
+                        width: 26px;
+                        height: 16px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 0 3px;
+                        border: 0;
+                        background: rgba(255,255,255,0);
+                        &.btnNum{
+                            width: 28px;
+                            height: 28px;
+                            border-radius: 14px;
+                            border: 0;
+                            background: rgb(229, 232, 234);
+                            font-size: 16px;
+                            font-weight: 600;
+                        }
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+            }
+        }     
+    }
+}

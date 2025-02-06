@@ -1,0 +1,308 @@
+@import url('./Sub.scss');
+#productViewPage {
+    width: 100%;
+    height: auto;
+    #viewsection1 {
+        width: 100%;
+        .container {
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding-top: 76px;
+            .content {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                .left-box {
+                    width:700px;
+                    .gap {
+                        width:100%;
+                        img {
+                            width:100%;
+                        }
+                    }
+                }
+                .right-box {
+                    width:580px;
+                    padding-left: 100px;
+                    .gap {
+                        width: 100%;
+                        .row{
+                            width: 100%;         
+                            &.row1 {
+                                h6 {
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    color: #6e7683;
+                                    padding-bottom: 15px; 
+                                }
+                                .name-box {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: flex-start;
+                                    h2 {
+                                        width: 325px;
+                                        font-size: 26px;
+                                        font-weight: 600;
+                                        color: #000; 
+                                        line-height: 1.38em;
+                                    }
+                                    button {
+                                        border: 0;
+                                        background: transparent;
+                                        cursor: pointer;
+                                        img {
+                                            width: 22px;
+                                            height: 22px;
+                                        }
+                                    }
+                                }
+                                .title-box {
+                                    padding-top: 20px;
+                                    .price-box {
+                                        display: flex;
+                                        align-items: center;
+                                        padding-bottom: 15px;
+                                        border-bottom: 1px solid #e5e8ea;
+                                        h3 {
+                                            width: 93px;
+                                            font-size: 16px;
+                                            color: #666;
+                                            font-weight: 600;
+                                        }
+                                        span{
+                                            font-size: 16px;
+                                            text-decoration: line-through;
+                                            color: #6e7683;  
+                                            margin-right: 10px;
+                                        }
+                                        strong{
+                                            font-size: 24px;
+                                            color: #000;     
+                                            font-weight: 700;
+                                        }
+                                        p {
+                                            font-size: 24px;
+                                        }
+                                        h4 {
+                                            color: #eb4d72;
+                                            font-size: 18px;
+                                            margin-left: 8px;
+                                            font-weight: 700; 
+                                        }
+                                    }
+                                    .earn-box {
+                                        display: flex;
+                                        flex-direction: column;
+                                        padding: 15px 0;
+                                        border-bottom: 1px solid #e5e8ea;
+                                        .sale-price {
+                                            display: flex;
+                                            align-items: center;
+                                            min-height: 26px;
+                                            h3 {
+                                                width: 93px;
+                                                font-size: 16px;
+                                                color: #666;
+                                                font-weight: 600;
+                                            }
+                                            span{
+                                                font-size: 16px;
+                                                color: #3565d2;   
+                                            }
+                                        }
+                                        .delivery {
+                                            display: flex;
+                                            align-items: center;
+                                            min-height: 26px;
+                                            margin-top: 6px;
+                                            h3 {
+                                                width: 93px;
+                                                font-size: 16px;
+                                                color: #666;
+                                                font-weight: 600;
+                                            }
+                                            span{
+                                                font-size: 16px;
+                                                color: #3565d2;    
+                                            }
+                                        }
+                                    }
+                                }
+                            }  
+                            &.row2 {
+                                width: 100%; 
+                                padding-top: 24px;
+                                ul {
+                                    li {
+                                        padding-bottom: 10px;
+                                        .gap {
+                                            width: 100%; 
+                                            position: relative;
+                                            z-index: 2;
+                                            border-radius: 5px;
+                                            background-color: #f5f5f5;
+                                            padding: 10px 20px 14px 10px;
+                                            p {
+                                                color: #363e4a;
+                                                line-height: 1.43em;
+                                            }
+                                            .num-count-box {
+                                                display: flex;
+                                                justify-content: space-between;
+                                                margin-top: 16px;
+                                                .button-box {
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    button {
+                                                        width: 30px;
+                                                        height: 30px;
+                                                        border: solid 1px #e5e8ea;
+                                                        background: #fff;
+                                                        cursor: pointer;
+                                                    }
+                                                    span {
+                                                        display: flex;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        width: 30px;
+                                                        height: 30px;
+                                                        border-top: solid 1px #e5e8ea;
+                                                        border-bottom: solid 1px #e5e8ea;
+                                                        color: #292929;
+                                                        background: #fff;
+                                                        font-size: 12px;
+                                                    }
+                                                }
+                                                .button-price-box {
+                                                    display: flex;
+                                                    align-items: center;
+                                                    strong {
+                                                        font-size: 18px;
+                                                        font-weight: 700;
+                                                    }
+                                                    p {
+                                                        font-size: 15px;
+                                                        font-weight: 700;
+                                                    }
+                                                }
+                                            }
+                                            .close {
+                                                border: 0;
+                                                background: transparent;
+                                                position: absolute;
+                                                z-index: 1;
+                                                top: 5px;
+                                                right: 10px;
+                                                display: none;
+                                                img {
+                                                    width: 10px;
+                                                    height: 10px;
+                                                }
+                                                &.on {
+                                                    display: block;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            } 
+                            &.row3 {
+                                width:100%;
+                                padding-bottom: 20px;
+                                .gap {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    padding: 24px 0;
+                                    span {
+                                        font-size: 15px;
+                                        font-weight: 700;
+                                        color: #363e4a;
+                                    }
+                                    .total-price {
+                                        display: flex;
+                                        align-items: center;
+                                        strong {
+                                            font-size: 24px;
+                                            font-weight: 700;
+                                        }
+                                        p {
+                                            font-size: 20px;
+                                            font-weight: 700;
+                                        }
+                                    }
+                                }
+                            } 
+                            &.row4 {
+                                width:100%;
+                                .gap {
+                                    width:100%;
+                                    button {   
+                                        font-size: 16px;
+                                        font-weight: 600;
+                                        height: 56px;
+                                        cursor: pointer;
+                                        &:nth-child(1){
+                                            width: 206px; 
+                                            background: #fff;
+                                            color: #363e4a;
+                                            border: solid 1px #363e4a;
+                                            border-radius: 5px;
+                                            text-align: center;                                                                               
+                                        }
+                                        &:nth-child(2){
+                                            margin-left: 6px;
+                                            background: #363e4a;
+                                            color: #fff;
+                                            width: 206px; 
+                                            border: solid 1px #363e4a;
+                                            border-radius: 5px;
+                                        }
+                                        &:nth-child(3){
+                                            width: 56px;
+                                            height: 56px;
+                                            padding: 7px;
+                                            border-radius: 8px;
+                                            border: solid 1px #e5e8ea;
+                                            margin-left: 6px;
+                                            background: transparent;
+                                            img {
+                                                width: 40px;
+                                                height: 40px;
+                                            }
+                                        }
+                                    }
+                                }
+                            } 
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #viewsection2 {
+        width: 100%;
+        padding-bottom: 100px;
+        .viewcontainer {
+            width: 100%;
+            max-width: 1280px;
+            display: flex;
+            padding-top: 100px;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 auto;
+            img {
+                width: 100%;
+                &:last-child {
+                    width: 312px;
+                    padding-bottom: 50px;
+                }
+            }
+            iframe {
+                padding: 50px 0;
+            }
+        }
+    }
+}

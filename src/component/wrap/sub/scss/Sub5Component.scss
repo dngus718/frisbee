@@ -1,0 +1,341 @@
+@import url('./Sub.scss');
+#sub5{
+    width: 100%;
+    height: auto;
+    .container {
+        width: 100%;
+        padding-bottom: 100px;
+        .title {
+            width: 100%;
+            height: 140px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h2{
+                font-size: 34px;
+                font-weight: 700;
+            }
+        }
+
+        .filter-box {
+            width: 100%;
+            margin-bottom: 40px;
+            ul {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                li {
+                    padding-right: 10px;
+                    button {
+                        width: 100%;
+                        min-width: 84px;
+                        height: 50px;
+                        border: 1px solid rgba(54, 62, 74, 0.1);
+                        background: none;
+                        padding: 0px 14px;
+                        border-radius: 25px;
+                        font-size: 18px;
+                        color: rgb(54, 62, 74);
+                        letter-spacing: -0.5px;
+                        cursor: pointer;
+                        &.on {
+                            background-color: rgb(54, 62, 74);
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+
+        .ranking-box {
+            width: 100%;
+            padding: 35px 0;
+            background: rgb(245, 247, 248);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .ranking-list {
+                width: 100%;
+                max-width: 1280px;
+                ul {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    li {
+                        position: relative;
+                        width: 360px;
+                        background: #fff;
+                        border: 1px solid #e5e8ea;
+                        padding: 24px 17px;
+                        .img-box {
+                            width: 273px;
+                            height: 273px;
+                            border-radius: 8px;
+                            overflow: hidden;
+                            margin: 0 auto;
+                            img {
+                                width: 100%;
+                            }
+                        }
+                        h2 {
+                            position: absolute;
+                            top: 30px;
+                            left: 50px;
+                            font-size: 40px;
+                            font-weight: 600;
+                        }
+                        .content {
+                            width: 280px;
+                            margin: 0 auto;
+                            padding-top: 20px;
+                            .item-box {
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                padding-bottom: 10px;
+                                .item {
+                                    display: flex;
+                                    align-items: center;
+                                    font-weight: 600;
+                                    p {
+                                        border: 1px solid #000;
+                                        padding: 5px 7px;
+                                        font-size: 12px;
+                                        text-align: center;
+                                        border-radius: 3px;
+                                        margin-right: 7px;
+                                        &.new {
+                                            border: solid 1px #e18ce9;
+                                            color: #cb1bcb;
+                                        }
+                                        &.event {
+                                            border: solid 1px #f5a5b8;
+                                            color: #eb4d72;
+                                        }
+                                        &.advance {
+                                            border: solid 1px #b7a4f6;
+                                            color: #6250c4;
+                                        }
+                                        &.sale {
+                                            border: solid 1px #ffb4b4;
+                                            color: #f04d4d;
+                                        }
+                                        &.timeDeal {
+                                            border: solid 1px #f4d99e;
+                                            color: #e09c2f;
+                                        }
+                                        &.delivery {
+                                            border: solid 1px #586cd9;
+                                            color: #294bd8;
+                                        }
+                                        &.GPS {
+                                            border: solid 1px #ffb384;
+                                            color: #ffb384;
+                                        }
+                                        &.coupon {
+                                            border: solid 1px #f2b868;
+                                            color: #ef900e;
+                                        }
+                                    }
+                                }
+                                .bookmark {
+                                    cursor: pointer;
+                                    a {
+                                        img {
+                                            width: 26px;
+                                            height: 26px;
+                                            &:hover {
+                                                content: url(../../../../../public/images/sub/sub5/bookmark_hover.png);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            h3 {
+                                font-size: 14px;
+                                height: 68px;
+                                cursor: pointer;
+                                letter-spacing: -0.38px;
+                                font-weight: 600;
+                            }
+                            .price {
+                                display: flex;
+                                align-items: center;
+                                padding-bottom: 15px;
+                                font-family: "Noto Sans";
+                                strong {
+                                    font-size: 18px;
+                                    font-weight: 600;
+                                    margin-right: 13px;
+                                }
+                                p {
+                                    font-size: 15px;
+                                    text-decoration: line-through;
+                                    color: #999;
+                                    margin-right: 13px;
+                                }
+                                span {
+                                    font-size: 16px;
+                                    color: #eb4d72;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        .list-box {
+            width: 100%;
+            padding: 35px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .list {
+                width: 100%;
+                max-width: 1280px;
+                ul {
+                    display: flex;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    li {
+                        position: relative;
+                        width: 25%;
+                        border: 1px solid #e5e8ea;
+                        padding: 24px 17px;
+                        background: transparent;
+                        border-right: 0;
+                        border-bottom: 0;
+                        &:nth-child(4n){
+                            border-right: 1px solid #e5e8ea;
+                        }
+                        &:nth-child(n+44){
+                            border-bottom: 1px solid #e5e8ea;
+                        }
+                        &:last-child {
+                            border-right: 1px solid #e5e8ea;
+                        }
+                        .img-box {
+                            width: 273px;
+                            height: 273px;
+                            border-radius: 8px;
+                            overflow: hidden;
+                            margin: 0 auto;
+                            img {
+                                width: 100%;
+                            }
+                        }
+                        h2 {
+                            position: absolute;
+                            top: 28px;
+                            left: 28px;
+                            font-size: 25px;
+                            font-weight: 600;
+                            font-family: "Noto Sans";
+                        }
+                        .content {
+                            width: 280px;
+                            margin: 0 auto;
+                            padding-top: 20px;
+                            .item-box {
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                padding-bottom: 5px;
+                                .item {
+                                    display: flex;
+                                    align-items: center;
+                                    font-weight: 600;
+                                    p {
+                                        border: 1px solid #000;
+                                        padding: 5px 7px;
+                                        font-size: 12px;
+                                        text-align: center;
+                                        border-radius: 3px;
+                                        margin-right: 7px;
+                                        &.new {
+                                            border: solid 1px #e18ce9;
+                                            color: #cb1bcb;
+                                        }
+                                        &.event {
+                                            border: solid 1px #f5a5b8;
+                                            color: #eb4d72;
+                                        }
+                                        &.advance {
+                                            border: solid 1px #b7a4f6;
+                                            color: #6250c4;
+                                        }
+                                        &.sale {
+                                            border: solid 1px #ffb4b4;
+                                            color: #f04d4d;
+                                        }
+                                        &.timeDeal {
+                                            border: solid 1px #f4d99e;
+                                            color: #e09c2f;
+                                        }
+                                        &.delivery {
+                                            border: solid 1px #586cd9;
+                                            color: #294bd8;
+                                        }
+                                        &.GPS {
+                                            border: solid 1px #ffb384;
+                                            color: #ffb384;
+                                        }
+                                        &.coupon {
+                                            border: solid 1px #f2b868;
+                                            color: #ef900e;
+                                        }
+                                    }
+                                }
+                                .bookmark {
+                                    cursor: pointer;
+                                    a {
+                                        img {
+                                            width: 26px;
+                                            height: 26px;
+                                            &:hover {
+                                                content: url(../../../../../public/images/sub/sub5/bookmark_hover.png);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            h3 {
+                                height: 68px;
+                                font-size: 14px;
+                                font-weight: 600;
+                                cursor: pointer;
+                                line-height: 170%;
+                                letter-spacing: -0.6px;
+                            }
+                            .price {
+                                display: flex;
+                                align-items: center;
+                                padding-top: 10px;
+                                padding-bottom: 11px;
+                                font-family: "Noto Sans";
+                                strong {
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    margin-right: 13px;
+                                }
+                                p {
+                                    font-size: 15px;
+                                    text-decoration: line-through;
+                                    color: #999;
+                                    margin-right: 13px;
+                                    letter-spacing: -0.7px;
+                                }
+                                span {
+                                    font-size: 16px;
+                                    color: #eb4d72;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

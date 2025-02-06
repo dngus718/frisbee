@@ -1,0 +1,20 @@
+{
+    "sub7":{
+        "online":[
+            {"num":1,"images":"./images/sub/sub7/online1.jpg","title":"연말도 Apple제품은 프리스비와 함께","date":"2024-12-01 ~ 2024-12-31"},
+            {"num":2,"images":"./images/sub/sub7/online2.jpg","title":"커뮤니티 프로모션","date":"2024-12-16 ~ 2025-01-31"},
+            {"num":3,"images":"./images/sub/sub7/online3.png","title":"커뮤니티 프로모션 당첨자 발표","date":"2024-12-18 ~ 2025-12-31"},
+            {"num":4,"images":"./images/sub/sub7/online4.png","title":"채널 추가하고 3,000원 받으세요","date":"2023-11-30 ~ 2028-11-30"},
+            {"num":5,"images":"./images/sub/sub7/online5.png","title":"12월 프리스비 무이자 행사","date":"2024-12-01 ~ 2024-12-31"},
+            {"num":6,"images":"./images/sub/sub7/online6.png","title":"포토 상품 후기 1,000원 증정","date":"2023-05-15 ~ 2024-12-31"}        
+        ],
+        "market":[
+            {"num":1,"images":"./images/sub/sub7/market1.jpg","title":"Mac 학생할인 프로모션","date":"2024-11-29 ~ 2024-12-28"},
+            {"num":2,"images":"./images/sub/sub7/market2.jpg","title":"12월 매장 프로모션","date":"2024-12-01 ~ 2024-12-31"},
+            {"num":3,"images":"./images/sub/sub7/market3.jpg","title":"Fun & Easy - 새로운 Apple 제품 설정부터 활용법까지.","date":"2024-03-26 ~ 2024-12-31"},
+            {"num":4,"images":"./images/sub/sub7/market4.jpg","title":"Trade In - 쓰던기기 보상할인을 매장에서 즉시.","date":"2024-03-25 ~ 2024-12-31"},
+            {"num":5,"images":"./images/sub/sub7/market5.jpg","title":"Change Up 보상 프로그램 - 신한카드 Applus로 더 부담없이.","date":"2024-11-01 ~ 2024-12-31"},
+            {"num":6,"images":"./images/sub/sub7/market6.jpg","title":"12월 매장 신용카드 무이자 행사","date":"2024-12-01 ~ 2024-12-31"}
+        ]
+    }
+}

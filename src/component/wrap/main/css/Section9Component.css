@@ -1,0 +1,297 @@
+@charset "UTF-8";
+#section9,
+#section10,
+#section11,
+#section12,
+#section13,
+#section14,
+#section15 {
+  width: 100%;
+  height: 1168px;
+  background: rgb(245, 245, 247);
+  padding: 50px 0;
+}
+#section9 .title,
+#section10 .title,
+#section11 .title,
+#section12 .title,
+#section13 .title,
+#section14 .title,
+#section15 .title {
+  margin: 0 auto;
+  width: 1400px;
+  padding: 44px 60px 30px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#section9 .title .col1 h2,
+#section10 .title .col1 h2,
+#section11 .title .col1 h2,
+#section12 .title .col1 h2,
+#section13 .title .col1 h2,
+#section14 .title .col1 h2,
+#section15 .title .col1 h2 {
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: -0.85px;
+  line-height: 34px;
+  color: rgb(54, 62, 74);
+}
+#section9 .title .col2 a,
+#section10 .title .col2 a,
+#section11 .title .col2 a,
+#section12 .title .col2 a,
+#section13 .title .col2 a,
+#section14 .title .col2 a,
+#section15 .title .col2 a {
+  letter-spacing: -0.35px;
+  color: rgb(153, 153, 153);
+}
+#section9 .content,
+#section10 .content,
+#section11 .content,
+#section12 .content,
+#section13 .content,
+#section14 .content,
+#section15 .content {
+  width: 1400px;
+  padding: 0 60px;
+  margin: 0 auto;
+}
+#section9 .content ul,
+#section10 .content ul,
+#section11 .content ul,
+#section12 .content ul,
+#section13 .content ul,
+#section14 .content ul,
+#section15 .content ul {
+  display: flex;
+  flex-flow: wrap;
+  width: 100%;
+  border-bottom: 1px solid rgb(229, 232, 234);
+}
+#section9 .content ul li,
+#section10 .content ul li,
+#section11 .content ul li,
+#section12 .content ul li,
+#section13 .content ul li,
+#section14 .content ul li,
+#section15 .content ul li {
+  width: 320px;
+  height: 480px;
+  padding: 24px 17px 15px 23px;
+  background-color: #fff;
+  border: 1px solid rgb(229, 232, 234);
+  border-left: 0;
+  border-bottom: 0;
+}
+#section9 .content ul li:first-child,
+#section10 .content ul li:first-child,
+#section11 .content ul li:first-child,
+#section12 .content ul li:first-child,
+#section13 .content ul li:first-child,
+#section14 .content ul li:first-child,
+#section15 .content ul li:first-child {
+  border-left: 1px solid rgb(229, 232, 234);
+}
+#section9 .content ul li:nth-child(5),
+#section10 .content ul li:nth-child(5),
+#section11 .content ul li:nth-child(5),
+#section12 .content ul li:nth-child(5),
+#section13 .content ul li:nth-child(5),
+#section14 .content ul li:nth-child(5),
+#section15 .content ul li:nth-child(5) {
+  border-left: 1px solid rgb(229, 232, 234);
+}
+#section9 .content ul li .list-box,
+#section10 .content ul li .list-box,
+#section11 .content ul li .list-box,
+#section12 .content ul li .list-box,
+#section13 .content ul li .list-box,
+#section14 .content ul li .list-box,
+#section15 .content ul li .list-box {
+  width: 100%;
+  height: 100%;
+}
+#section9 .content ul li .list-box .img-box a,
+#section10 .content ul li .list-box .img-box a,
+#section11 .content ul li .list-box .img-box a,
+#section12 .content ul li .list-box .img-box a,
+#section13 .content ul li .list-box .img-box a,
+#section14 .content ul li .list-box .img-box a,
+#section15 .content ul li .list-box .img-box a {
+  display: block;
+  width: 100%;
+}
+#section9 .content ul li .list-box .img-box a img,
+#section10 .content ul li .list-box .img-box a img,
+#section11 .content ul li .list-box .img-box a img,
+#section12 .content ul li .list-box .img-box a img,
+#section13 .content ul li .list-box .img-box a img,
+#section14 .content ul li .list-box .img-box a img,
+#section15 .content ul li .list-box .img-box a img {
+  border-radius: 8px;
+  width: 273px;
+  height: 273px;
+}
+#section9 .content ul li .list-box .text-box,
+#section10 .content ul li .list-box .text-box,
+#section11 .content ul li .list-box .text-box,
+#section12 .content ul li .list-box .text-box,
+#section13 .content ul li .list-box .text-box,
+#section14 .content ul li .list-box .text-box,
+#section15 .content ul li .list-box .text-box {
+  width: 100%;
+  padding-top: 20px;
+}
+#section9 .content ul li .list-box .text-box .row1,
+#section10 .content ul li .list-box .text-box .row1,
+#section11 .content ul li .list-box .text-box .row1,
+#section12 .content ul li .list-box .text-box .row1,
+#section13 .content ul li .list-box .text-box .row1,
+#section14 .content ul li .list-box .text-box .row1,
+#section15 .content ul li .list-box .text-box .row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#section9 .content ul li .list-box .text-box .row1 .col1 span,
+#section10 .content ul li .list-box .text-box .row1 .col1 span,
+#section11 .content ul li .list-box .text-box .row1 .col1 span,
+#section12 .content ul li .list-box .text-box .row1 .col1 span,
+#section13 .content ul li .list-box .text-box .row1 .col1 span,
+#section14 .content ul li .list-box .text-box .row1 .col1 span,
+#section15 .content ul li .list-box .text-box .row1 .col1 span {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 7px;
+  border-radius: 3px;
+  height: 24px;
+  line-height: 24px;
+  margin-right: 8px;
+}
+#section9 .content ul li .list-box .text-box .row1 .col1 span.할인,
+#section10 .content ul li .list-box .text-box .row1 .col1 span.할인,
+#section11 .content ul li .list-box .text-box .row1 .col1 span.할인,
+#section12 .content ul li .list-box .text-box .row1 .col1 span.할인,
+#section13 .content ul li .list-box .text-box .row1 .col1 span.할인,
+#section14 .content ul li .list-box .text-box .row1 .col1 span.할인,
+#section15 .content ul li .list-box .text-box .row1 .col1 span.할인 {
+  border: 1px solid rgb(255, 180, 180);
+  color: rgb(240, 77, 77);
+}
+#section9 .content ul li .list-box .text-box .row1 .col1 span.타임딜,
+#section10 .content ul li .list-box .text-box .row1 .col1 span.타임딜,
+#section11 .content ul li .list-box .text-box .row1 .col1 span.타임딜,
+#section12 .content ul li .list-box .text-box .row1 .col1 span.타임딜,
+#section13 .content ul li .list-box .text-box .row1 .col1 span.타임딜,
+#section14 .content ul li .list-box .text-box .row1 .col1 span.타임딜,
+#section15 .content ul li .list-box .text-box .row1 .col1 span.타임딜 {
+  border: 1px solid rgb(244, 217, 158);
+  color: rgb(224, 156, 47);
+}
+#section9 .content ul li .list-box .text-box .row1 .col1 span.무료배송,
+#section10 .content ul li .list-box .text-box .row1 .col1 span.무료배송,
+#section11 .content ul li .list-box .text-box .row1 .col1 span.무료배송,
+#section12 .content ul li .list-box .text-box .row1 .col1 span.무료배송,
+#section13 .content ul li .list-box .text-box .row1 .col1 span.무료배송,
+#section14 .content ul li .list-box .text-box .row1 .col1 span.무료배송,
+#section15 .content ul li .list-box .text-box .row1 .col1 span.무료배송 {
+  border: 1px solid rgb(88, 108, 217);
+  color: rgb(41, 75, 216);
+}
+#section9 .content ul li .list-box .text-box .row1 .col2 button,
+#section10 .content ul li .list-box .text-box .row1 .col2 button,
+#section11 .content ul li .list-box .text-box .row1 .col2 button,
+#section12 .content ul li .list-box .text-box .row1 .col2 button,
+#section13 .content ul li .list-box .text-box .row1 .col2 button,
+#section14 .content ul li .list-box .text-box .row1 .col2 button,
+#section15 .content ul li .list-box .text-box .row1 .col2 button {
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+#section9 .content ul li .list-box .text-box .row1 .col2 button.hover,
+#section10 .content ul li .list-box .text-box .row1 .col2 button.hover,
+#section11 .content ul li .list-box .text-box .row1 .col2 button.hover,
+#section12 .content ul li .list-box .text-box .row1 .col2 button.hover,
+#section13 .content ul li .list-box .text-box .row1 .col2 button.hover,
+#section14 .content ul li .list-box .text-box .row1 .col2 button.hover,
+#section15 .content ul li .list-box .text-box .row1 .col2 button.hover {
+  background-image: url("../../../../../public/images/main/section9/bookmark_hover.png");
+}
+#section9 .content ul li .list-box .text-box .row1 .col2 button img,
+#section10 .content ul li .list-box .text-box .row1 .col2 button img,
+#section11 .content ul li .list-box .text-box .row1 .col2 button img,
+#section12 .content ul li .list-box .text-box .row1 .col2 button img,
+#section13 .content ul li .list-box .text-box .row1 .col2 button img,
+#section14 .content ul li .list-box .text-box .row1 .col2 button img,
+#section15 .content ul li .list-box .text-box .row1 .col2 button img {
+  width: 26px;
+}
+#section9 .content ul li .list-box .text-box .row2 h4,
+#section10 .content ul li .list-box .text-box .row2 h4,
+#section11 .content ul li .list-box .text-box .row2 h4,
+#section12 .content ul li .list-box .text-box .row2 h4,
+#section13 .content ul li .list-box .text-box .row2 h4,
+#section14 .content ul li .list-box .text-box .row2 h4,
+#section15 .content ul li .list-box .text-box .row2 h4 {
+  height: 68px;
+  margin-top: 6px;
+}
+#section9 .content ul li .list-box .text-box .row2 h4 a,
+#section10 .content ul li .list-box .text-box .row2 h4 a,
+#section11 .content ul li .list-box .text-box .row2 h4 a,
+#section12 .content ul li .list-box .text-box .row2 h4 a,
+#section13 .content ul li .list-box .text-box .row2 h4 a,
+#section14 .content ul li .list-box .text-box .row2 h4 a,
+#section15 .content ul li .list-box .text-box .row2 h4 a {
+  font-weight: 600;
+  line-height: 23.94px;
+  letter-spacing: -0.38px;
+}
+#section9 .content ul li .list-box .text-box .row3,
+#section10 .content ul li .list-box .text-box .row3,
+#section11 .content ul li .list-box .text-box .row3,
+#section12 .content ul li .list-box .text-box .row3,
+#section13 .content ul li .list-box .text-box .row3,
+#section14 .content ul li .list-box .text-box .row3,
+#section15 .content ul li .list-box .text-box .row3 {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+#section9 .content ul li .list-box .text-box .row3 p.dis-price,
+#section10 .content ul li .list-box .text-box .row3 p.dis-price,
+#section11 .content ul li .list-box .text-box .row3 p.dis-price,
+#section12 .content ul li .list-box .text-box .row3 p.dis-price,
+#section13 .content ul li .list-box .text-box .row3 p.dis-price,
+#section14 .content ul li .list-box .text-box .row3 p.dis-price,
+#section15 .content ul li .list-box .text-box .row3 p.dis-price {
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 13px;
+}
+#section9 .content ul li .list-box .text-box .row3 p.price,
+#section10 .content ul li .list-box .text-box .row3 p.price,
+#section11 .content ul li .list-box .text-box .row3 p.price,
+#section12 .content ul li .list-box .text-box .row3 p.price,
+#section13 .content ul li .list-box .text-box .row3 p.price,
+#section14 .content ul li .list-box .text-box .row3 p.price,
+#section15 .content ul li .list-box .text-box .row3 p.price {
+  font-size: 15px;
+  margin-right: 13px;
+  color: rgb(153, 153, 153);
+  text-decoration: line-through;
+}
+#section9 .content ul li .list-box .text-box .row3 p.discount,
+#section10 .content ul li .list-box .text-box .row3 p.discount,
+#section11 .content ul li .list-box .text-box .row3 p.discount,
+#section12 .content ul li .list-box .text-box .row3 p.discount,
+#section13 .content ul li .list-box .text-box .row3 p.discount,
+#section14 .content ul li .list-box .text-box .row3 p.discount,
+#section15 .content ul li .list-box .text-box .row3 p.discount {
+  font-size: 16px;
+  color: rgb(235, 77, 114);
+}

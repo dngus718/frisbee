@@ -1,0 +1,148 @@
+#main{
+    #section1 {
+        width: 1400px;
+        height: auto;
+        max-height: 700px;
+        margin: 0 auto;
+        user-select: none;
+        .slide-container{
+            width: 100%;
+            max-width: 1400px;
+            position: relative;
+                .font-box{
+                    width: 925px;
+                    height: 36px;
+                    position: absolute;
+                    left: 60px;
+                    top: 644px;
+                    z-index: 3;          
+                    ul{
+                        width: 100%;
+                        display: flex;                
+                        li{
+                            width: 20%;
+                            text-align: center;                  
+                            border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+                            &.on{
+                                border-bottom: 1px solid rgba(255, 255, 255, 1); 
+                            }
+                            a{
+                                width: 100%;
+                                height: 100%; 
+                                                                               
+                                span{
+                                    position: relative;
+                                    top: -10px;
+                                    width: 100%;
+                                    height: 100%;
+                                    font-size: 15px;
+                                    font-weight: 400;
+                                    color: rgba(255, 255, 255, 0.14);  
+                                    &.on{
+                                    
+                                        color: rgba(255, 255, 255, 1);
+                                      
+                                    }                                              
+                                }
+                                 
+                            }            
+                        }
+                    }               
+                }
+                .button-box{
+                    width: 78px;
+                    display: flex;
+                    justify-content: space-between;
+                    position: absolute;
+                    z-index: 3;
+                    right: 60px;
+                    top: 630px;
+                    button{
+                        width: 100%;
+                        border: 0;
+                        background: 0;
+                        img{
+                            width: 36px;
+                            height: 36px;
+                        }
+                    }
+                }
+                .box-box{
+                    width: 1400px;
+                    height: 160px;
+                    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, #000 100%);
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    z-index: 2;
+                }
+            
+            .slide-view{
+                width: 100%;
+                height: auto;
+                position: relative;
+                z-index: 1;    
+                overflow: hidden;    
+                .slide-wrap{
+                    width: 100% * 7;
+                    display: flex;
+                    position: relative;
+                    left: -100%;
+                    margin-left: -100% * 1;
+                    .slide{
+                        width: 100%;
+                        a{
+                            width: 100%;  
+                            img{
+                                width: 100%;
+                                height: auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}   
+@media all and (min-width:768px) and (max-width: 1023px) {
+    #main{
+        width: 100%;
+        #section1{
+            width: 100%;
+            height: auto;
+            .slide-container{
+                .font-box{
+                    ul{             
+                        li{                            
+                            &.on{
+                            }
+                            a{                                                                                                         
+                                span{                                   
+                                    &.on{                                                                       
+                                    }                                              
+                                }
+                            }            
+                        }
+                    }               
+                }
+                .button-box{
+                    display: none;
+                }
+                .slide-view{
+                    width: 100%;  
+                    .slide-wrap{
+                        .slide{
+                            width: 100%;
+                            a{
+                                width: 100%;  
+                                img{
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

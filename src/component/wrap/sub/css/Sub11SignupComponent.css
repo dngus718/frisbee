@@ -1,0 +1,189 @@
+#sub11Signup {
+  width: 100%;
+  height: auto;
+  background: rgb(245, 246, 247);
+}
+#sub11Signup .container {
+  width: 100%;
+  padding: 50px 0;
+}
+#sub11Signup .container .signup-wrap {
+  width: 100%;
+  max-width: 630px;
+  margin: 0 auto;
+}
+#sub11Signup .container .signup-wrap .title {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 40px;
+}
+#sub11Signup .container .signup-wrap .title h1 {
+  color: rgb(54, 62, 74);
+  font-size: 34px;
+  font-weight: 700;
+}
+#sub11Signup .container .signup-wrap form {
+  width: 100%;
+}
+#sub11Signup .container .signup-wrap form .info-wrap {
+  width: 100%;
+  padding-bottom: 40px;
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul {
+  width: 100%;
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li {
+  width: 100%;
+  margin-bottom: 15px;
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li > div {
+  width: 100%;
+  padding-left: 137px;
+  position: relative;
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li > div > label {
+  width: auto;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li > div > label span {
+  color: rgb(58, 73, 97);
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li > div > label i {
+  color: rgb(75, 130, 238);
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li > div.id-box {
+  padding-right: 150px;
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li > div input[type=text],
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li > div input[type=email] {
+  width: 100%;
+  height: 60px;
+  border: 1px solid rgb(229, 232, 234);
+  border-radius: 5px;
+  padding: 19px 20px;
+  font-size: 15px;
+  outline-offset: -1px;
+  outline: 1px solid rgba(58, 73, 91, 0);
+  transition: all 0.3s ease-in-out;
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li > div input[type=text]:focus,
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li > div input[type=email]:focus {
+  outline: 1px solid rgb(58, 73, 91);
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li > div input[type=text]::-moz-placeholder, #sub11Signup .container .signup-wrap form .info-wrap > ul > li > div input[type=email]::-moz-placeholder {
+  color: #bbb;
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li > div input[type=text]::placeholder,
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li > div input[type=email]::placeholder {
+  color: #bbb;
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li > div .guide-text {
+  width: 100%;
+  padding-top: 10px;
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li > div .guide-text p {
+  color: rgb(235, 77, 114);
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li > div button {
+  width: 140px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: rgb(54, 62, 74);
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li > div input[type=password] {
+  width: 100%;
+  height: 60px;
+  border: 1px solid rgb(229, 232, 234);
+  padding: 19px 20px;
+  font-size: 15px;
+  outline-offset: -1px;
+  outline: 1px solid rgba(58, 73, 91, 0);
+  transition: all 0.3s ease-in-out;
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li > div input[type=password]:focus {
+  outline: 1px solid rgb(58, 73, 91);
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li > div input[type=password]::-moz-placeholder {
+  color: #bbb;
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li > div input[type=password]::placeholder {
+  color: #bbb;
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li > div .radio-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li > div .radio-box label {
+  margin-right: 50px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li > div .radio-box label input[type=radio] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(229, 232, 234);
+  border-radius: 50%;
+  background: #fff;
+  margin-right: 10px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li > div .radio-box label input[type=radio]:checked {
+  border-width: 5px;
+  border-color: rgb(75, 130, 238);
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li > div .radio-box label strong {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(58, 73, 97);
+  line-height: 20px;
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li.pw-box {
+  margin-bottom: 0;
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li.pw-box.box2 {
+  margin-bottom: 15px;
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li.pw-box div input[type=password]#userPw1 {
+  border-radius: 5px 5px 0 0;
+  border-bottom: 0;
+}
+#sub11Signup .container .signup-wrap form .info-wrap > ul > li.pw-box div input[type=password]#userPw2 {
+  border-radius: 0 0 5px 5px;
+}
+#sub11Signup .container .signup-wrap form .btn-box {
+  width: 100%;
+  text-align: center;
+}
+#sub11Signup .container .signup-wrap form .btn-box .signup-btn {
+  width: 208px;
+  height: 54px;
+  background: rgb(75, 130, 238);
+  color: rgb(249, 250, 251);
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}

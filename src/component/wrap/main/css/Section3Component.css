@@ -1,0 +1,213 @@
+@charset "UTF-8";
+#section3 {
+  width: 100%;
+  background: #fff;
+  margin: 0 auto;
+  padding-bottom: 44px;
+}
+#section3 .section-title {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 44px 60px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#section3 .section-title h3 {
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 1em;
+  letter-spacing: -0.85px;
+  text-align: left;
+  color: #363e4a;
+  /* font-family: "NotoSansBold", sans-serif; */
+}
+#section3 .section-title > a {
+  width: 640px;
+  font-size: 14px;
+  letter-spacing: -0.35px;
+  text-align: right;
+  color: #999;
+}
+#section3 .slide-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+#section3 .slide-container .slide-view {
+  width: 1281px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#section3 .slide-container .slide-view .slide-wrap {
+  display: flex;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+#section3 .slide-container .slide-view .slide-wrap .slide {
+  width: 320px;
+  border: solid 1px #e5e8ea;
+  border-right: 0;
+  padding: 24px 23px 15px 23px;
+}
+#section3 .slide-container .slide-view .slide-wrap .slide .container {
+  width: 100%;
+}
+#section3 .slide-container .slide-view .slide-wrap .slide .container .img-box {
+  width: 100%;
+}
+#section3 .slide-container .slide-view .slide-wrap .slide .container .img-box > a {
+  width: 100%;
+}
+#section3 .slide-container .slide-view .slide-wrap .slide .container .img-box > a > img {
+  width: 100%;
+  border-radius: 8px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#section3 .slide-container .slide-view .slide-wrap .slide .container .text-box {
+  width: 279px;
+  padding-top: 20px;
+  position: relative;
+}
+#section3 .slide-container .slide-view .slide-wrap .slide .container .text-box .icon-list {
+  width: 100%;
+}
+#section3 .slide-container .slide-view .slide-wrap .slide .container .text-box .icon-list > span {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 7px;
+  margin-right: 4px;
+  border-radius: 3px;
+  margin-bottom: 6px;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: "NotoSansBold", sans-serif;
+}
+#section3 .slide-container .slide-view .slide-wrap .slide .container .text-box .icon-list > span.할인 {
+  border: solid 1px #ffb4b4;
+  color: #f04d4d;
+}
+#section3 .slide-container .slide-view .slide-wrap .slide .container .text-box .icon-list > span.EVENT {
+  border: solid 1px #e18ce9;
+  color: #cb1bcb;
+}
+#section3 .slide-container .slide-view .slide-wrap .slide .container .text-box .icon-list > span.무료배송 {
+  border: solid 1px #586cd9;
+  color: #294bd8;
+}
+#section3 .slide-container .slide-view .slide-wrap .slide .container .text-box .icon-list .bookmark-button {
+  width: 26px;
+  height: 26px;
+  border: 0;
+  position: absolute;
+  right: 0;
+  background: #fff;
+  cursor: pointer;
+}
+#section3 .slide-container .slide-view .slide-wrap .slide .container .text-box .icon-list .bookmark-button img {
+  width: 100%;
+}
+#section3 .slide-container .slide-view .slide-wrap .slide .container .text-box .product-item {
+  width: 100%;
+  height: 68px;
+  text-overflow: ellipsis;
+}
+#section3 .slide-container .slide-view .slide-wrap .slide .container .text-box .product-item > a {
+  width: 100%;
+  height: 68px;
+}
+#section3 .slide-container .slide-view .slide-wrap .slide .container .text-box .product-item > a > strong {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: -0.38px;
+  line-height: 23.94px;
+}
+#section3 .slide-container .slide-view .slide-wrap .slide .container .text-box .product-price {
+  margin: 10px 0;
+  width: 100%;
+  height: 20px;
+  display: flex;
+}
+#section3 .slide-container .slide-view .slide-wrap .slide .container .text-box .product-price > strong {
+  font-size: 18px;
+  font-family: "NotoSansMedium", "Lato", sans-serif;
+  padding-right: 13px;
+}
+#section3 .slide-container .slide-view .slide-wrap .slide .container .text-box .product-price > span {
+  font-size: 15px;
+  padding-right: 13px;
+  text-decoration: line-through;
+  color: #999;
+}
+#section3 .slide-container .slide-view .slide-wrap .slide .container .text-box .product-price > p {
+  font-size: 16px;
+  color: #eb4d72;
+}
+#section3 .slide-container .slide-view .slide-wrap .slide:nth-child(20) {
+  border-right: solid 1px #e5e8ea;
+}
+#section3 .slide-container .swiper-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+#section3 .slide-container .swiper-nav .swiper-spot {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background: #000;
+  margin: 0 3px;
+  width: 4px;
+  opacity: 0.2;
+  border-radius: 0;
+  transition: opacity 0.3s ease-in-out, width 0.3s ease-in-out 0.3s;
+  background-color: #363e4a;
+  cursor: pointer;
+}
+#section3 .slide-container .swiper-nav .swiper-spot.on {
+  opacity: 1;
+  width: 18px;
+  cursor: pointer;
+}
+#section3 .slide-container .slide-btn-next {
+  width: 36px;
+  height: 36px;
+  z-index: 3;
+  position: absolute;
+  top: 45%;
+  right: 45px;
+}
+#section3 .slide-container .slide-btn-next.on {
+  opacity: 0.35;
+  cursor: default;
+}
+#section3 .slide-container .slide-btn-next > img {
+  width: 100%;
+}
+#section3 .slide-container .slide-btn-prev {
+  width: 36px;
+  height: 36px;
+  transform: rotate(180deg);
+  z-index: 3;
+  position: absolute;
+  top: 45%;
+  left: 45px;
+}
+#section3 .slide-container .slide-btn-prev.on {
+  opacity: 0.35;
+  cursor: default;
+}
+#section3 .slide-container .slide-btn-prev > img {
+  width: 100%;
+}

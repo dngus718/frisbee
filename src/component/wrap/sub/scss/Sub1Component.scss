@@ -1,0 +1,210 @@
+@import url('./Sub.scss');
+#sub1 {
+    width: 100%;
+    height: auto;
+    user-select: none;
+    #section1 {
+        width: 100%;
+        height: auto;
+        padding: 50px 0 120px 0;
+        .main-menu {
+            width: 1280px;
+            margin: 0 auto;
+            margin-bottom: 26px;
+            .title {
+                width: 100%;
+                margin-bottom: 23px;
+                h4 {
+                    font-size: 34px;
+                    font-weight: 600;
+                    color: rgb(54, 62, 74);
+                }
+            }
+            .content {
+                width: 100%;
+                ul {
+                    display: flex;
+                    li {
+                        a {
+                            display: block;
+                            img {
+                                width: 180px;
+                                margin-bottom: 30px;
+                            }
+                            p {
+                                text-align: center;
+                                color: rgb(32, 32, 32);
+                                font-size: 18px;
+                                font-weight: 700;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .sub-open-bar {
+            height: 1px;
+            background: rgb(229, 232, 234);
+            position: relative;
+            &::after {
+                content: "";
+                width: 24px;
+                height: 24px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                background: url(../../../../../public/images/sub/sub1/sub-down.png) no-repeat 50% 50%;
+                background-size: 24px auto;
+                transform: translate(-50%, -50%);
+                // transform: matrix(1, 0, 0, 1, -12, -12);
+            }
+            &.on {
+                &::after {
+                    background-image: url('../../../../../public/images/sub/sub1/sub-up.png');
+                }
+            }
+        }
+        .sub-menu {
+            width: 100%;
+            height: 0;
+            overflow: hidden;
+            transition: height 0.3s ease-in-out;
+            background: rgb(245, 245, 245);
+            &.on {
+                height: 285px;
+            }
+            .sub-container {
+                width: 100%;
+                max-width: 1280px;
+                margin: 0 auto;
+                display: flex;
+                padding: 29px 0 32px 0;
+                ul {
+                    width: 180px;
+                    li {
+                        a {
+                            display: block;
+                            text-align: center;
+                            color: rgb(153, 153, 153);
+                            line-height: 28px;
+                            &:hover {
+                                color: #333;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #section2 {
+        width: 100%;
+        // height: auto;
+        height: 814px;  // 임시로
+        position: relative;
+        padding-bottom: 120px;
+        background-attachment: scroll;
+        .background {
+            width: 100%;
+            // height: auto;
+            height: 100%;  // 임시로
+            background: url(../../../../../public/images/sub/sub1/apple_fix_bg.png) no-repeat 50% 50%;
+            background-size: cover;
+            background-attachment: fixed;
+            position: absolute;
+            top: 0;
+            z-index: 1;
+        }
+        .content {
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding-top: 120px;
+            position: relative;
+            z-index: 2;
+            .slide-container {
+                width: 100%;
+                .slide-view {
+                    width: 100%;
+                    .slide-wrap {
+                        width: 100% * 6;
+                        display: flex;
+                        position: relative;
+                        transform: translateX(-426.666px * 0);
+                        .slide {
+                            width: 426.666px;
+                            padding: 0 50px 40px 0;
+                            cursor: pointer;
+                            &:first-child {
+                                margin-left: 50px;
+                            }
+                            a {
+                                pointer-events: none;
+                                display: block;
+                                width: 100%;
+                                height: 520px;
+                                position: relative;
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                    border-radius: 14px;
+                                }
+                                .text-box {
+                                    position: absolute;
+                                    top: 59px;
+                                    left: 50px;
+                                    color: #fff;
+                                    strong {
+                                        display: block;
+                                        font-size: 32px;
+                                        line-height: 47px;
+                                        margin-bottom: 6px;
+                                    }
+                                    p {
+                                        font-size: 20px;
+                                        margin-bottom: 24px;
+                                    }
+                                    span {
+                                        font-size: 12px;
+                                        opacity: 0;
+                                        transition: all 0.3s ease-in-out;
+                                    }
+                                }
+                            }
+                            &:hover {
+                                a{
+                                    .text-box {
+                                        span {
+                                            opacity: 1;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .click-box {
+                    width: 100%;
+                    height: 4px;
+                    margin-top: 10px;
+                    display: flex;
+                    justify-content: center;
+                    a {
+                        display: block;
+                        width: 4px;
+                        height: 4px;
+                        font-size: 16px;
+                        background: rgb(54, 62, 74);
+                        opacity: 0.2;
+                        margin: 0 4px;
+                        &.on {
+                            width: 18px;
+                            background: rgb(54, 62, 74);
+                            opacity: 1;
+                            transition: all 0.3s ease-in-out;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+@import url(./reset.css);
+#wrap {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}

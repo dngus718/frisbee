@@ -1,0 +1,332 @@
+#sub9MyPage{
+    width: 100%;
+    height: auto;
+    .container{
+        width: 100%;
+        .content{
+            width: 100%;
+            min-width: 1560px;
+            display: flex;
+            padding: 0 287px 95px 0;
+            height: auto;
+            .left-box{
+                width: 100%;
+                max-width: 275px;                
+                padding-left: 25px;
+                margin-top: 40px;
+                .filter-box{
+                    width: 100%;
+                    > dl{
+                        width: 100%;
+                        > dt{
+                            padding: 20px;
+                            border: 1px solid rgb(0,0,0,0.1);
+                            font-size: 18px;
+                            font-weight: 700;
+                            background: rgb(248, 248, 248);
+                            color: rgb(54, 62, 74);
+                        }
+                        > dd{
+                            padding: 20px;
+                            border: 1px solid rgb(0,0,0,0.1);
+                            border-top: 0;                           
+                            .sub-filter{
+                                > dl{
+                                    > dt{
+                                        padding-bottom: 20px;
+                                        font-size: 15px;
+                                        font-weight: 700;
+                                        color: rgb(54, 62, 74);
+                                    }
+                                    > dd{
+                                        line-height: 28px;
+                                        display: flex;
+                                        align-items: center;
+                                        a{
+                                            font-size: 14px;
+                                            font-weight: 400;
+                                        }
+                                        span{
+                                            margin-left: 10px;
+                                            img{display: block;}
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .right-box{
+                width: 100%;
+                max-width: 1261px;
+                margin-top: 40px;                    
+                border-radius: 5px;          
+                .font-box{
+                    width: 100%;                    
+                    margin-bottom: 40px;
+                    background: rgb(54, 62, 74);     
+                    margin-left: 20px;   
+                    border-radius: 7px;            
+                    .row1{
+                        width: 100%;
+                        display: flex;
+                        border-bottom: 1px solid rgb(255,255,255,0.1);                        
+                        .font-left{
+                            width: 52%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            padding-left: 24px;
+                            .user-level{
+                                display: flex;
+                                letter-spacing: -1px;
+                                padding-left: 24px;                               
+                                h2{
+                                    font-size: 24px;
+                                    font-weight: 400;
+                                    color: #fff;                                                                      
+                                }
+                                h4{
+                                    font-size: 24px;
+                                    font-weight: 600;
+                                    color: #fff; 
+                                    padding-left: 10px;                                   
+                                }
+                                h3{
+                                    font-size: 24px;
+                                    font-weight: 600;
+                                    color: rgb(244, 184, 22);                                    
+                                }
+                                img{
+                                    display: block;
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                            .my-membership{
+                                width: 128px;
+                                height: 40px;
+                                border: 1px solid #fff;
+                                border-radius: 74px;
+                                margin-right: 30px;                                                                   
+                                a{                                    
+                                    display: flex;
+                                    align-items: center;
+                                    padding: 10px 5px 10px 15px;
+                                    h3{
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        color: #fff;
+                                    }
+                                    img{
+                                        width: 16px;
+                                        height: 16px;
+                                        margin-left: 10px;
+                                    }
+                                }
+                            }                            
+                        }
+                        .font-right{
+                            width: 48%;                            
+                            ul{
+                                width: 100%;                                                                
+                                display: flex;
+                                align-items: center;                            
+                                padding: 29px 0;
+                                li{
+                                    width: 25%;   
+                                    position: relative;  
+                                    &::before{
+                                        content: "";   
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        width: 1px;
+                                        height: 90px;
+                                        background: #fff;
+                                        opacity: 0.1;                                    
+                                    }                                                                                       
+                                    a{
+                                        width: 100%;
+                                        height: 92px;
+                                        margin-left: 20px;                                        
+
+                                        display: flex;
+                                        justify-content: space-between;  
+                                        flex-flow: column nowrap;                                                                                      
+                                        span{
+                                            display: flex;
+                                            align-items: center;  
+                                              
+                                                                                 
+                                            h4{
+                                                color: #aaa;
+                                                font-size: 16px;
+                                                font-weight: 400;
+                                            }
+                                            img{
+                                                width: 16px;
+                                                height: 16px;
+                                                transform: rotate(270deg);
+                                                margin-left: 7px;
+                                            }
+                                        }
+                                        p{
+                                            color: #fff;
+                                            font-size: 22px;
+                                            font-weight: 400;                                            
+                                        }
+                                    }
+                                    &:first-child{
+                                        a{
+                                            p{
+                                                font-size: 18px;
+                                            }
+                                        }
+                                    }                                                                   
+                                }
+                            }
+                        }
+                    }
+                    .row2{
+                        width: 100%;                        
+                        padding: 28px 20px 28px 0;
+                        .gap{
+                            display: flex;
+                            align-items: center;
+                            padding-left: 24px;
+                            .lately{
+                                width: 100%;
+                                display: flex;                                                                                  
+                                &.lately-left{
+                                    width: 50%;
+                                    border-right: 1px solid rgb(255,255,255,0.1);
+                                }
+                                &.lately-right{
+                                    width: 50%;
+                                    margin-left: 24px;
+                                }
+                                h2{
+                                    color: rgb(229, 232, 234);
+                                    font-size: 18px;
+                                    font-weight: 500;
+                                    padding-left: 24px;
+                                }
+                                p{
+                                    color: rgb(229, 232, 234);
+                                    font-size: 18px;
+                                    font-weight: 500;
+                                    margin-left: 60px;  
+                                }
+                            } 
+                        }                                              
+                    }
+                }
+                .content-box{
+                    width: 100%;
+                    height: auto;
+                    .order-box{
+                        width: 100%;
+                        ul{
+                            width: 100%;
+                            li{
+                                width: 100%;                                
+                                .title-bx{
+                                    width: 100%;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    margin-left: 20px;
+                                    padding-bottom: 20px;     
+                                    margin-top: 60px;                               
+                                    h2{
+                                        font-size: 24px;
+                                        font-weight: 700;
+                                    }
+                                    a{
+                                        display: flex;  
+                                        p{
+                                            font-size: 15px;
+                                            font-weight: 400;
+                                        }
+                                        span{                                                                                  
+                                            img{
+                                                width: 7px;
+                                                height: 13px;
+                                                margin-left: 6px;
+                                            }
+                                        }
+                                    }                                    
+                                }
+                                .contents{
+                                    width: 100%;
+                                    height: 100%;                                    
+                                    margin-left: 20px;
+                                    border-top: 2px solid rgb(210, 214, 219);
+                                    border-bottom: 1px solid rgb(210, 214, 219);
+                                    .kind-box{
+                                        width: 100%;
+                                        tr{                                            
+                                            display: flex;
+                                            align-items: center;
+                                            background: rgb(248, 248, 248);
+                                            border-bottom: 1px solid rgb(234, 234, 234);
+                                            th{
+                                                display: flex;
+                                                justify-content: center;
+                                                padding: 20px 0;                                                
+                                                font-size: 16px;
+                                                color: rgb(54, 62, 74);
+                                                &:nth-child(1){                                                  
+                                                        width: 10.9%;                                                    
+                                                }
+                                                &:nth-child(2),
+                                                &:nth-child(5),
+                                                &:nth-child(6){
+                                                    width: 13.2%;                                                   
+                                                }
+                                                &:nth-child(3){                                                    
+                                                        width: 41.4%;                                                    
+                                                }
+                                                &:nth-child(4){                                                    
+                                                        width: 7.8%;                                                    
+                                                }                                                
+                                            }
+                                        }
+                                    }
+                                    .none-box{
+                                        width: 100%;    
+                                        text-align: center;    
+                                        min-height: 313.5px;
+                                        margin-top: 77.625px;                                      
+                                        &::before{
+                                            content: '';
+                                            display: block; 
+                                            align-items: center;                                               
+                                            width: 120px;
+                                            height: 120px;
+                                            background: url(../../../../../public/images/sub/sub_mypage/icon_empty.png) no-repeat 50% 50%;              
+                                            margin: 0 auto;                                  
+                                            border-radius: 50%;
+                                            background-size: 50% 50%;                                                
+                                        }                                                               
+                                        p{
+                                            width: 100%;
+                                            height: 24px;
+                                            font-size: 16px;
+                                            font-weight: 400;   
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;                                        
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

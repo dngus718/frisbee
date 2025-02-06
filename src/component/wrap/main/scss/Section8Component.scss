@@ -1,0 +1,144 @@
+#section8 {
+    width: 100%;
+    background: #F5F5F7;
+    padding-top: 88px;
+    .col-container {
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        display: flex;
+        .col-left {
+            width: 408px;
+            .section-l-title {
+                width: 100%;
+                h3 {
+                    font-size: 34px;
+                    font-weight: bold;
+                    line-height: 1.3em;
+                    letter-spacing: -0.85px;
+                    text-align: left;
+                    color: #363e4a;
+                    /* font-family: "NotoSansBold", sans-serif; */
+                }
+                &::after {
+                    content: "";
+                    display: block;
+                    width: 28px;
+                    height: 2px;
+                    margin: 39px 0 31px 0;
+                    background-color: #000;
+                }
+            }
+            .section-l-bottom {
+                width: 100%;
+                p {
+                    width: 100%;
+                    span {
+                        margin-bottom: 10px;
+                        padding: 0 12px 0 13px;
+                        border-radius: 20px;
+                        background: #e5e8ea;
+                        display: inline-block;
+                        vertical-align: top;
+                        height: 36px;
+                        text-align: center;
+                        font-size: 13px;
+                        font-weight: 500;
+                        line-height: 2.77;
+                        letter-spacing: -0.33px;
+                        color: #6e7683;
+                    }
+                }
+            }
+        }
+        .col-right {
+            width: calc(100% - 408px);
+            .container {
+                width: 100%;
+                > ul {
+                    width: 100%;
+                    display: flex;
+                    flex-flow: wrap;
+                    > li {
+                        width: 270px;
+                        margin-left: 20px;
+                        .product-box {
+                            width: 100%;
+                            text-align: center;
+                            box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
+                            .item-box {
+                                position: relative;
+                                z-index: 1;
+                                width: 100%;
+                                background: #fff;
+                                border-radius: 8px;
+                                display: flex;
+                                padding: 20px;
+                                overflow: hidden;
+                                > img {
+                                    width: 100%;
+                                    border-radius: 8px;
+                                }
+                                .text-box {
+                                    transition: bottom 0.3s ease-in-out;
+                                    position: absolute;
+                                    left: 0;
+                                    bottom: -100%;
+                                    width: 100%;
+                                    height: 100%;
+                                    background: rgba(0, 0, 0, 0.8);
+                                    z-index: 2;
+                                    text-align: left;
+                                    border-radius: 8px;
+                                    padding: 20px;
+                                    transition: bottom 0.4s;
+                                    h4 {
+                                    position: relative;
+                                    padding-top: 90px;
+                                    width: 100%;
+                                    text-overflow: ellipsis;
+                                    line-height: 1.4em;
+                                    max-height: 11.4em;
+                                        > a {
+                                            font-size: 18px;
+                                            font-weight: 18px;
+                                            color: #fff;
+                                        }
+                                    }
+                                    > p {
+                                        margin-top: 10px;
+                                        display: flex;
+                                        font-size: 18px;
+                                        font-weight: 700;
+                                        color: #fff;
+                                    }
+                                }
+                                &:hover {
+                                    .text-box {
+                                        bottom: 0;
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-child(4) {
+                            .product-box {
+                                margin-top: 20px;
+                            }
+                        }
+                        &:nth-child(5) {
+                            .product-box {
+                                margin-top: 20px;
+                            }
+                        }
+                        &:nth-child(6) {
+                            .product-box {
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}

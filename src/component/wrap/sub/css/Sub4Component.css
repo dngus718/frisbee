@@ -1,0 +1,109 @@
+@import url("./Sub.scss");
+#sub4 {
+  width: 100%;
+  height: auto;
+}
+#sub4 .container {
+  width: 100%;
+  padding-bottom: 100px;
+}
+#sub4 .container .content .title {
+  width: 100%;
+  min-height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sub4 .container .content .title h3 {
+  font-size: 34px;
+  font-weight: bold;
+  letter-spacing: -0.85px;
+  text-align: center;
+  color: #1a1a1a;
+}
+#sub4 .container .content .brand-wrap {
+  width: 1280px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  background-color: transparent;
+}
+#sub4 .container .content .brand-wrap .brand-img-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+#sub4 .container .content .brand-wrap .brand-img-wrap .img-list {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+#sub4 .container .content .brand-wrap .brand-img-wrap .img-list .img-list-item {
+  width: 400px;
+  margin-left: 19px;
+}
+#sub4 .container .content .brand-wrap .brand-img-wrap .img-list .img-list-item:nth-child(3n+1) {
+  margin-left: 0;
+}
+#sub4 .container .content .brand-wrap .brand-img-wrap .img-list .img-list-item:nth-of-type(n+4) {
+  margin-top: 48px;
+}
+#sub4 .container .content .brand-wrap .brand-img-wrap .img-list .img-list-item a {
+  width: 100%;
+  height: 240px;
+  color: #7d7d7d;
+  text-decoration: none;
+  cursor: pointer;
+}
+#sub4 .container .content .brand-wrap .brand-img-wrap .img-list .img-list-item a img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+#sub4 .container .content .brand-wrap .brand-img-wrap .page-box {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+#sub4 .container .content .brand-wrap .brand-img-wrap .page-box > button {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  vertical-align: top;
+  background: none;
+  border: none;
+  border-radius: 14px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #6c7684;
+  line-height: 28px;
+}
+#sub4 .container .content .brand-wrap .brand-img-wrap .page-box > button.act {
+  margin: 0 4px;
+}
+#sub4 .container .content .brand-wrap .brand-img-wrap .page-box > button.act:hover {
+  background: rgba(229, 232, 234, 0.5);
+}
+#sub4 .container .content .brand-wrap .brand-img-wrap .page-box > button.pages-num {
+  cursor: pointer;
+  background: #e5e8ea;
+  color: #363e4a;
+  padding: 0 3px;
+}
+#sub4 .container .content .brand-wrap .brand-img-wrap .page-box > button > img {
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 16px;
+  padding: 0 3px;
+}

@@ -1,0 +1,119 @@
+@import url("./Sub.scss");
+#sub3 {
+  width: 100%;
+  height: auto;
+}
+#sub3 .container {
+  width: 100%;
+  padding-bottom: 100px;
+}
+#sub3 .container .title {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sub3 .container .title h2 {
+  font-size: 34px;
+  font-weight: 600;
+}
+#sub3 .container .banner_container {
+  width: 100%;
+  max-width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+}
+#sub3 .container .banner_container ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#sub3 .container .banner_container ul li {
+  width: 33.333%;
+  padding-left: 19px;
+}
+#sub3 .container .banner_container ul li:nth-child(n+4) {
+  margin-top: 48px;
+}
+#sub3 .container .banner_container ul li .img_box {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+#sub3 .container .banner_container ul li .img_box a {
+  width: 100%;
+  display: block;
+  transition: all 0.2s linear;
+}
+#sub3 .container .banner_container ul li .img_box a img {
+  width: 100%;
+}
+#sub3 .container .banner_container ul li .text_box {
+  padding-top: 14px;
+}
+#sub3 .container .banner_container ul li .text_box h3 {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  color: #363e4a;
+}
+#sub3 .container .banner_container ul li .text_box p {
+  font-size: 16px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  color: #999;
+  margin-top: 4px;
+}
+#sub3 .container .paging_btn {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+#sub3 .container .paging_btn a {
+  width: 28px;
+  height: 28px;
+}
+#sub3 .container .paging_btn a.prev_btn {
+  padding-top: 5px;
+  margin-right: 5px;
+}
+#sub3 .container .paging_btn a.prev_btn img {
+  width: auto;
+  height: 16px;
+  padding: 0 6px;
+}
+#sub3 .container .paging_btn a.prev_btn:hover {
+  background: #f3f4f5;
+  border-radius: 50%;
+}
+#sub3 .container .paging_btn a.paging_num {
+  border-radius: 50%;
+}
+#sub3 .container .paging_btn a.paging_num h2 {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: #363e4a;
+  padding-top: 6px;
+}
+#sub3 .container .paging_btn a.paging_num.on {
+  background: rgb(229, 232, 234);
+}
+#sub3 .container .paging_btn a.next_btn {
+  padding-top: 5px;
+  padding-left: 5px;
+  margin-left: 5px;
+}
+#sub3 .container .paging_btn a.next_btn img {
+  width: auto;
+  height: 16px;
+  padding: 0 2px;
+}
+#sub3 .container .paging_btn a.next_btn:hover {
+  background: #f3f4f5;
+  border-radius: 50%;
+}

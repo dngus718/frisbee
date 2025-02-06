@@ -1,0 +1,227 @@
+#sub7 {
+  width: 100%;
+  height: auto;
+}
+#sub7 .container {
+  width: 100%;
+}
+#sub7 .container .title {
+  width: 100%;
+  height: auto;
+  margin: 45px 0;
+}
+#sub7 .container .title h3 {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+}
+#sub7 .container .event-menu {
+  width: 100%;
+  height: 62px;
+  background: rgb(248, 248, 248);
+}
+#sub7 .container .event-menu .btn-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+#sub7 .container .event-menu .btn-box button {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  border: 0;
+  background: rgb(248, 248, 248);
+}
+#sub7 .container .event-menu .btn-box button.Event-btn-online {
+  height: 100%;
+  margin-right: 90px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#sub7 .container .event-menu .btn-box button.Event-btn-market {
+  height: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#sub7 .container .event-container {
+  width: 1280px;
+  height: 100%;
+  margin: 47px 311.5px 0 311.5px;
+  padding-bottom: 100px;
+}
+#sub7 .container .event-container .event-top {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+#sub7 .container .event-container .event-top .left {
+  height: 100%;
+}
+#sub7 .container .event-container .event-top .left span {
+  font-size: 14px;
+  font-weight: 700;
+}
+#sub7 .container .event-container .event-top .right {
+  height: 100%;
+}
+#sub7 .container .event-container .event-top .right #eventList {
+  width: 155px;
+  height: 38px;
+  padding: 5px 25px 5px 15px;
+  border: 1px solid rgb(229, 232, 234);
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: url(../../../../../public/images/sub/sub7/drop_icon3.png) no-repeat calc(100% - 10px) 50%;
+  background-size: 12px auto;
+}
+#sub7 .container .event-container .event-top .right #eventList option {
+  font-size: 14px;
+  color: rgb(102, 102, 102);
+  line-height: 30px;
+}
+#sub7 .container .event-container .event-list-container {
+  width: 100%;
+}
+#sub7 .container .event-container .event-list-container .event-list-box {
+  width: 100%;
+}
+#sub7 .container .event-container .event-list-container .event-list-box ul {
+  width: 100%;
+}
+#sub7 .container .event-container .event-list-container .event-list-box ul li {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+#sub7 .container .event-container .event-list-container .event-list-box ul li img {
+  width: 31%;
+}
+#sub7 .container .event-container .event-list-container .event-list-box ul li .text {
+  width: 100%;
+  padding: 56px 50px 0 48px;
+  background: rgb(245, 246, 247);
+  position: relative;
+}
+#sub7 .container .event-container .event-list-container .event-list-box ul li .text h3 {
+  color: rgb(54, 62, 74);
+  font-size: 24px;
+  font-weight: 700;
+}
+#sub7 .container .event-container .event-list-container .event-list-box ul li .text p {
+  margin-top: 75px;
+  color: rgb(153, 153, 153);
+  font: 16px;
+}
+#sub7 .container .event-container .event-list-container .event-list-box ul li .text a {
+  width: 120px;
+  height: 46px;
+  background: rgb(54, 62, 74);
+  position: absolute;
+  right: 50px;
+  bottom: 38px;
+  border-radius: 5px;
+}
+#sub7 .container .event-container .event-list-container .event-list-box ul li .text a span {
+  font-size: 16px;
+  font-weight: 700;
+  width: auto;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sub7 .container .event-container .event-list-container .event-list-box.on {
+  display: none;
+}
+#sub7 .container .event-container .event-list-container .market-list-box {
+  width: 100%;
+  display: none;
+}
+#sub7 .container .event-container .event-list-container .market-list-box ul {
+  width: 100%;
+}
+#sub7 .container .event-container .event-list-container .market-list-box ul li {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+#sub7 .container .event-container .event-list-container .market-list-box ul li img {
+  width: 31%;
+}
+#sub7 .container .event-container .event-list-container .market-list-box ul li .text {
+  width: 100%;
+  padding: 56px 50px 0 48px;
+  background: rgb(245, 246, 247);
+  position: relative;
+}
+#sub7 .container .event-container .event-list-container .market-list-box ul li .text h3 {
+  color: rgb(54, 62, 74);
+  font-size: 24px;
+  font-weight: 700;
+}
+#sub7 .container .event-container .event-list-container .market-list-box ul li .text p {
+  margin-top: 75px;
+  color: rgb(153, 153, 153);
+  font: 16px;
+}
+#sub7 .container .event-container .event-list-container .market-list-box ul li .text a {
+  width: 120px;
+  height: 46px;
+  background: rgb(54, 62, 74);
+  position: absolute;
+  right: 50px;
+  bottom: 38px;
+  border-radius: 5px;
+}
+#sub7 .container .event-container .event-list-container .market-list-box ul li .text a span {
+  font-size: 16px;
+  font-weight: 700;
+  width: auto;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sub7 .container .event-container .event-list-container .market-list-box.on {
+  display: block;
+}
+#sub7 .container .event-container .event-bottom {
+  width: 100%;
+  height: 28px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sub7 .container .event-container .event-bottom button {
+  width: 26px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 3px;
+  border: 0;
+  background: rgba(255, 255, 255, 0);
+}
+#sub7 .container .event-container .event-bottom button.btnNum {
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
+  border: 0;
+  background: rgb(229, 232, 234);
+  font-size: 16px;
+  font-weight: 600;
+}
+#sub7 .container .event-container .event-bottom button img {
+  width: 100%;
+  height: 100%;
+}

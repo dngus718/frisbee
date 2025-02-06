@@ -1,0 +1,16 @@
+@charset "UTF-8";
+*{margin: 0; padding: 0; vertical-align: middle; box-sizing: border-box;}
+html,body{width: 100%; height: 100%;user-select:none;}
+html{overflow-y: scroll; font: normal 14px/1 'Noto Sans KR', 'Noto Sans', sans-serif;}
+html.on{overflow-y: hidden;}
+body{color: #333; background: #fff;}
+header,main,footer,nav,aside,section{display: block;}
+h1,h2,h3,h4,h5,h6{font-size: 14px; font-weight: normal;}
+ul{list-style: none;}
+a{color: #333; text-decoration: none;}
+i,em,address{font-style: normal;}
+.blind{display: block; overflow: hidden; text-indent: -100000px;}
+.hide{display: none;}
+button {
+    font-family: 'Noto Sans KR', sans-serif;
+}

@@ -1,0 +1,114 @@
+#section7 {
+  width: 100%;
+  background: #F5F5F7;
+  padding-bottom: 44px;
+}
+#section7 .section-title {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 44px 60px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#section7 .section-title .col-left {
+  position: relative;
+  width: 100%;
+}
+#section7 .section-title .col-left h5 {
+  width: 640px;
+  color: rgb(75, 130, 238);
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 2.78;
+  letter-spacing: -0.45px;
+  text-align: left;
+}
+#section7 .section-title .col-left h3 {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 1em;
+  letter-spacing: -0.85px;
+  text-align: left;
+  color: #363e4a;
+  /* font-family: "NotoSansBold", sans-serif; */
+}
+#section7 .section-title .col-right {
+  position: relative;
+  width: 100%;
+}
+#section7 .section-title .col-right > a {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  width: 640px;
+  height: 20px;
+}
+#section7 .container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+#section7 .container > ul {
+  width: 100%;
+  display: flex;
+}
+#section7 .container > ul > li {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#section7 .container > ul > li .item-box {
+  width: 100%;
+  padding: 15px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
+  position: relative;
+  margin-left: 20px;
+}
+#section7 .container > ul > li .item-box .product-item-box {
+  width: 100%;
+}
+#section7 .container > ul > li .item-box .product-item-box > a {
+  width: 100%;
+}
+#section7 .container > ul > li .item-box .product-item-box > a > img {
+  width: 100%;
+}
+#section7 .container > ul > li .item-box .product-item-box > a:nth-child(1) img {
+  width: 270px;
+}
+#section7 .container > ul > li .item-box .item-text-box {
+  width: 100%;
+  padding: 15px 0;
+}
+#section7 .container > ul > li .item-box .item-text-box > h4 {
+  width: 100%;
+  height: 68px;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+}
+#section7 .container > ul > li .item-box .item-text-box > h4 > a {
+  width: 100%;
+}
+#section7 .container > ul > li .item-box .item-text-box > p {
+  width: 100%;
+  height: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+#section7 .container > ul > li:nth-child(1) {
+  width: 305px;
+}
+#section7 .container > ul > li:nth-child(1) .item-box {
+  margin-left: 0;
+}

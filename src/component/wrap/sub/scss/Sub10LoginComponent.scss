@@ -1,0 +1,377 @@
+#sub10Login {
+    width: 100%;
+    height: auto;
+    background: rgb(245, 246, 247);
+    .container {
+        width: 100%;
+        max-width: 540px;
+        height: auto;
+        margin: 0 auto;
+        .title {
+            width: 100%;
+            text-align: center;
+            padding: 50px 0 28px 0;
+            h1 {
+                font-size: 34px;
+                font-weight: 600;
+                line-height: 50px;
+            }
+        }
+        .login-container {
+            width: 100%;
+            position: relative;
+            padding-top: 71px;
+            .mem-btn-box {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: center;
+                button {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 50%;
+                    height: 72px;
+                    border: 1px solid rgb(227, 227, 227);
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: rgb(110, 118, 131);
+                    cursor: pointer;
+                    &.member-btn {
+                        left: 0;
+                        background: #fff;
+                        border-radius: 8px 8px 0 0;
+                        border-bottom: 0;
+                        z-index: 3;
+                        position: relative;
+                        &.on {
+                            background: rgb(248, 249, 250);
+                            z-index: 1;
+                        }
+                    }
+                    &.nonmember-btn {
+                        left: 50%;
+                        background: rgb(248, 249, 250);
+                        border-radius: 8px 8px 0 0;
+                        z-index: 1;
+                        &.on {
+                            background: #fff;
+                            border-bottom: 0;
+                            z-index: 3;
+                        }
+                    }
+                }
+            }
+            .login-wrap {
+                width: 100%;
+                height: auto;
+                .member-wrap {
+                    width: 100%;
+                    height: auto;
+                    .login-box {
+                        width: 100%;
+                        height: auto;
+                        background: #fff;
+                        position: relative;
+                        z-index: 2;
+                        border: 1px solid rgb(229, 232, 234);
+                        border-radius: 0 0 8px 8px;
+                        .login-inner {
+                            width: 100%;
+                            padding: 30px 30px 25px 30px;
+                            text-align: center;
+                            form {
+                                width: 100%;
+                                .login {
+                                    width: 100%;
+                                    .idpw {
+                                        width: 100%;
+                                        position: relative;
+                                        img {
+                                            width: 22px;
+                                            position: absolute;
+                                            top: 19px;
+                                            left: 20px;
+                                        }
+                                        input[type='text'],
+                                        input[type='password'] {
+                                            width: 100%;
+                                            height: 60px;
+                                            padding: 19px 20px 19px 52px;
+                                            border: 1px solid rgb(229, 232, 234);
+                                            outline-offset: -1px;
+                                            font-size: 16px;
+                                            color: rgb(58, 73, 97);
+                                            outline: 1px solid rgba(58,73,91,0);
+                                            transition: all 0.3s ease-in-out;
+                                            &:focus {
+                                                outline: 1px solid rgba(58,73,91,1);
+                                            }
+                                            &::placeholder {
+                                                color: #bbb;
+                                            }
+                                        }
+                                        input[type='text'] {
+                                            border-radius: 8px 8px 0 0;
+                                            border-bottom: 0;
+                                        }
+                                        input[type='password'] {
+                                            border-radius: 0 0 8px 8px;
+                                        }
+                                    }
+                                }
+                                .login-save {
+                                    margin-top: 14px;
+                                    width: 100%;
+                                    text-align: left;
+                                    label {
+                                        cursor: pointer;
+                                        input[type='checkbox'] {
+                                            appearance: none;
+                                            width: 20px;
+                                            height: 20px;
+                                            background: url(../../../../../public/images/sub/sub10/check_icon-off.png) no-repeat 50% 50%;
+                                            background-size: 20px;
+                                            margin-right: 8px;
+                                            cursor: pointer;
+                                            &:checked {
+                                                background-image: url(../../../../../public/images/sub/sub10/check_icon-on.png);
+                                            }
+                                        }
+                                        span {
+                                            font-size: 16px;
+                                            color: rgb(58, 73, 97);
+                                        }
+                                        &:last-child {
+                                            margin-left: 30px;
+                                        }
+                                    }
+                                }
+                            }
+                            .login-btn-box {
+                                width: 100%;
+                                padding: 23px 0 14px 0;
+                                button {
+                                    width: 100%;
+                                    height: 60px;
+                                    background: rgb(75, 130, 238);
+                                    color: rgb(249, 250, 251);
+                                    border: 0;
+                                    border-radius: 5px;
+                                    font-size: 16px;
+                                    font-weight: 600;
+                                    cursor: pointer;
+                                    &:hover {
+                                        background: rgb(51, 101, 210);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .etc-box {
+                        width: 100%;
+                        text-align: center;
+                        padding-bottom: 100px;
+                        .find-box {
+                            width: 100%;
+                            padding: 20px 0 40px 0;
+                            a {
+                                display: inline-block;
+                                color: rgb(110, 118, 131);
+                                font-size: 16px;
+                            }
+                            i {
+                                color: rgb(102, 102, 102);
+                                font-size: 12px;
+                                margin: 0 20px;
+                            }
+                        }
+                        .kakao-btn-box {
+                            width: 100%;
+                            height: 45px;
+                            background: rgb(254, 229, 0);
+                            border-radius: 6px;
+                            a {
+                                display: flex;
+                                width: 100%;
+                                height: 100%;
+                                justify-content: center;
+                                align-items: center;
+                                img {
+                                    width: 18px;
+                                    height: 18px;
+                                    margin-right: 7px;
+                                }
+                                span {
+                                    color: rgb(25, 25, 25);
+                                    font-size: 15px;
+                                    font-weight: 600;
+                                }
+                            }
+                        }
+                        .or-box {
+                            margin: 24px 0;
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            &::before {
+                                content: '';
+                                display: block;
+                                width: 50%;
+                                height: 1px;
+                                background: rgb(229, 232, 234);
+                                margin: 0 15px;
+                            }
+                            &::after {
+                                content: '';
+                                display: block;
+                                width: 50%;
+                                height: 1px;
+                                background: rgb(229, 232, 234);
+                                margin: 0 15px;
+                            }
+                            p {
+                                font-size: 12px;
+                                color: rgb(170, 170, 170);
+                            }
+                        }
+                        .sns-btn-box {
+                            width: 100%;
+                            a {
+                                display: inline-block;
+                                &:nth-child(2){
+                                    margin: 0 50px;
+                                }
+                                img {
+                                    width: 56px;
+                                }
+                            }
+                        }
+                        .info-box {
+                            width: 100%;
+                            margin-top: 40px;
+                            color: rgb(110, 118, 131);
+                            strong {
+                                font-size: 15px;
+                                font-weight: 400;
+                                line-height: 230%;
+                            }
+                            p {
+                                line-height: 140%;
+                            }
+                        }
+                    }
+                    &.on {
+                        display: none;
+                    }
+                }
+                .nonmember-wrap {
+                    padding-bottom: 325px;
+                    display: none;
+                    .order-info-box {
+                        width: 100%;
+                        height: auto;
+                        background: #fff;
+                        position: relative;
+                        z-index: 2;
+                        border: 1px solid rgb(229, 232, 234);
+                        border-radius: 0 0 8px 8px;
+                        .order-info-inner {
+                            width: 100%;
+                            padding: 30px 30px 25px 30px;
+                            text-align: center;
+                            form {
+                                width: 100%;
+                                .order-info {
+                                    width: 100%;
+                                    position: relative;
+                                    input[type='text'] {
+                                        width: 100%;
+                                        height: 60px;
+                                        padding: 19px 20px 19px 20px;
+                                        border: 1px solid rgb(229, 232, 234);
+                                        outline-offset: -1px;
+                                        font-size: 16px;
+                                        color: rgb(58, 73, 97);
+                                        outline: 1px solid rgba(58,73,91,0);
+                                        transition: all 0.3s ease-in-out;
+                                        &:focus {
+                                            outline: 1px solid rgba(58,73,91,1);
+                                        }
+                                        &::placeholder {
+                                            color: #bbb;
+                                        }
+                                        &:first-child {
+                                            border-radius: 8px 8px 0 0;
+                                            border-bottom: 0;
+                                        }
+                                        &:last-child {
+                                            border-radius: 0 0 8px 8px;
+                                        }                                        
+                                    }
+                                }
+                            }
+                            .submit-btn-box {
+                                width: 100%;
+                                padding: 23px 0 14px 0;
+                                button {
+                                    width: 100%;
+                                    height: 60px;
+                                    background: rgb(75, 130, 238);
+                                    color: rgb(249, 250, 251);
+                                    border: 0;
+                                    border-radius: 5px;
+                                    font-size: 16px;
+                                    font-weight: 600;
+                                    cursor: pointer;
+                                    &:hover {
+                                        background: rgb(51, 101, 210);
+                                    }
+                                }
+                            }
+                            .info-box {
+                                width: 100%;
+                                text-align: left;
+                                p {
+                                    color: rgb(110, 118, 131);
+                                }
+                            }
+                            .bar {
+                                width: 100%;
+                                height: 1px;
+                                background: rgb(229, 232, 234);
+                                margin-top: 27px;
+                            }
+                            .signup-box {
+                                width: 100%;
+                                padding-top: 20px;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                span {
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                    color: rgb(54, 62, 74);
+                                }
+                                a {
+                                    display: block;
+                                    height: 34px;
+                                    padding: 7px 13px;
+                                    background: rgb(222, 226, 234);
+                                    border-radius: 4px;
+                                    font-weight: 500;
+                                    color: rgb(54, 62, 74);
+                                }
+                            }
+                        }
+                    }
+                    &.on {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/frisbee/static/css/main.6acf9aa3.css",
+    "main.js": "/frisbee/static/js/main.de99e13e.js",
+    "static/media/apple_fix_bg.png": "/frisbee/static/media/apple_fix_bg.1db98c696ed92546ad1b.png",
+    "index.html": "/frisbee/index.html",
+    "main.6acf9aa3.css.map": "/frisbee/static/css/main.6acf9aa3.css.map",
+    "main.de99e13e.js.map": "/frisbee/static/js/main.de99e13e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6acf9aa3.css",
+    "static/js/main.de99e13e.js"
+  ]
+}

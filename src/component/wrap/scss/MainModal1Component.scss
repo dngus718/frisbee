@@ -1,0 +1,59 @@
+#mainModal {
+    width: 440px;
+    height: auto;
+    position: absolute;
+    top: 25%;
+    left: 38%;
+    z-index: 3;
+    .container {
+        width: 100%;
+        height: 668px;
+        background: #fff;
+        box-shadow: 0px 0px 10px #8d8d8d;
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;
+        a {
+
+            .img_box {
+                width: 100%;
+                height: 601px;
+                position: relative;
+                p {
+                    position: absolute;
+                    top: 10%;
+                    right: 5%;
+                    font-size: 40px;
+                    text-align: center;
+                    font-weight: 600;
+                    color: #fff;
+                }
+                img {
+                    width: 100%;
+                }    
+            }
+
+            .btn_box {
+                width: 100%;
+                height: 60px;
+                background: #fff;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                button {
+                    display: inline-flex;
+                    width: 50%;
+                    height: 100%;
+                    justify-content: center;
+                    align-items: center;
+                    border: none;
+                    background: #fff;
+                    cursor: pointer;
+                    span {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

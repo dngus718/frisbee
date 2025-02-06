@@ -1,0 +1,118 @@
+#section7 {
+    width: 100%;
+    background: #F5F5F7;
+    padding-bottom: 44px;
+    .section-title {
+        position: relative;
+        width: 100%;
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 44px 60px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        .col-left {
+            position: relative;
+            width: 100%;
+            h5 {
+                width: 640px;
+                color: rgb(75, 130, 238);
+                font-size: 18px;
+                font-weight: bold;
+                line-height: 2.78;
+                letter-spacing: -0.45px;
+                text-align: left;
+            }
+            h3 {
+                width: 100%;
+                display: flex;
+                justify-content: left;
+                align-items: flex-end;
+                font-size: 34px;
+                font-weight: bold;
+                line-height: 1em;
+                letter-spacing: -0.85px;
+                text-align: left;
+                color: #363e4a;
+                /* font-family: "NotoSansBold", sans-serif; */
+            }
+        }
+        .col-right {
+            position: relative;
+            width: 100%;
+            > a {
+                display: flex;
+                justify-content: right;
+                align-items: flex-end;
+                width: 640px;
+                height: 20px;
+            }
+        }
+
+    }
+    .container {
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        > ul {
+            width: 100%;
+            display: flex;
+            > li {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                .item-box {
+                    width: 100%;
+                    padding: 15px;
+                    background: #fff;
+                    border-radius: 8px;
+                    box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
+                    position: relative;
+                    margin-left: 20px;
+                    .product-item-box {
+                        width: 100%;
+                        > a {
+                            width: 100%;
+                            > img {
+                                width: 100%;
+                            }
+                            &:nth-child(1) {
+                                img {
+                                    width: 270px;
+                                }
+                            }
+                        }
+                    }
+                    .item-text-box {
+                        width: 100%;
+                        padding: 15px 0;
+                        > h4 {
+                            width: 100%;
+                            height: 68px;
+                            font-size: 13px;
+                            font-weight: 600;
+                            text-align: center;
+                            > a {
+                                width: 100%;
+                                
+                            }
+                        }
+                        > p {
+                            width: 100%;
+                            height: 20px;
+                            font-size: 18px;
+                            font-weight: 700;
+                            text-align: center;
+                        }
+                    }
+                }
+                &:nth-child(1) {
+                    width: 305px;
+                    .item-box {
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}

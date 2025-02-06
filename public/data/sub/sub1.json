@@ -1,0 +1,31 @@
+{
+    "sub1":{
+        "title":"Apple",
+        "mainMenu":[
+            {"no":1, "category":"Mac", "img":"Mac.jpg"},
+            {"no":2, "category":"iPad", "img":"iPad.jpg"},
+            {"no":3, "category":"iPhone", "img":"iPhone.png"},
+            {"no":4, "category":"Watch", "img":"Watch.png"},
+            {"no":5, "category":"Airpods", "img":"Airpods.jpg"},
+            {"no":6, "category":"Apple TV", "img":"AppleTV.png"},
+            {"no":7, "category":"Apple 액세서리", "img":"AppleAccessory.jpg"}
+        ],
+        "subMenu":[
+            {"no":1, "category":"Mac", "products":["MacBook Air 13 M2", "MacBook Air 13 M3", "MacBook Air 15", "MacBook Pro 14", "MacBook Pro 16", "iMac", "Mac mini", "Mac Studio & Display"]},            
+            {"no":2, "category":"iPad", "products":["iPad Pro 13", "iPad Pro 11", "iPad Air 13", "iPad Air 11", "iPad 10세대", "iPad 9세대", "iPad mini"]},
+            {"no":3, "category":"iPhone", "products":["iPhone 16 Pro Max", "iPhone 16 Pro", "iPhone 16 Plus", "iPhone 16", "iPhone SE", "AirTag"]},
+            {"no":4, "category":"Watch", "products":["Apple Watch Ultra 2", "Apple Watch Series 10", "Apple Watch SE 2"]},
+            {"no":5, "category":"Airpods", "products":["AirPods Max", "AirPods Pro", "AirPods", "EarPods"]},
+            {"no":6, "category":"Apple TV", "products":["Apple TV"]},
+            {"no":7, "category":"Apple 액세서리", "products":["Mac 액세서리", "iPad 액세서리", "iPhone 액세서리", "Watch 액세서리"]}
+        ],
+        "slide":[
+            {"no":1, "img":"slide1.png", "title1":"iPad 필수 액세서리", "title2":"신제품 아이패드 액세서리 모아보기", "more":"더 알아보기"},
+            {"no":2, "img":"slide2.png", "title1":"알로, 너로 정했다!", "title2":"'충전' 하면 알로. '알로' 하면 충전.", "more":"더 알아보기"},
+            {"no":3, "img":"slide3.png", "title1":"삼성 SSD로 저-장!", "title2":"포터블. 성능은 언터쳐블.", "more":"더 알아보기"},
+            {"no":4, "img":"slide4.png", "title1":"갓성비 내리는 SKY", "title2":"It's different.", "more":"더 알아보기"},
+            {"no":5, "img":"slide5.png", "title1":"iPad 구매하셨다면? 바로여기!", "title2":"C-type 액세서리 완전 정복", "more":"더 알아보기"},
+            {"no":6, "img":"slide6.png", "title1":"You raise me up ♫", "title2":"거북목 물리칠 Macbook 거치대", "more":"더 알아보기"}
+        ]
+    }
+}

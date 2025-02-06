@@ -1,0 +1,173 @@
+@charset "UTF-8";
+#section5 {
+  width: 100%;
+  height: 698.031px;
+  background: rgb(245, 245, 247);
+  padding: 44px 0;
+  overflow: hidden;
+}
+#section5 .title {
+  margin: 0 auto;
+  width: 1400px;
+  padding: 0 60px 30px 60px;
+}
+#section5 .title h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -0.45px;
+  color: rgb(75, 130, 238);
+}
+#section5 .title h2 {
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: -0.85px;
+  line-height: 34px;
+  color: rgb(54, 62, 74);
+}
+#section5 .content {
+  width: 1400px;
+  padding: 0 60px;
+  margin: 0 auto;
+}
+#section5 .content .slide-container {
+  width: 100%;
+}
+#section5 .content .slide-container .slide-view {
+  width: 100%;
+}
+#section5 .content .slide-container .slide-view .slide-wrap {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+#section5 .content .slide-container .slide-view .slide-wrap .slide {
+  width: 100%;
+  height: 100%;
+  margin-right: 20px;
+}
+#section5 .content .slide-container .slide-view .slide-wrap .slide .list-box {
+  width: 305px;
+  height: 462px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.08) 2px 4px 12px 0px;
+  position: relative;
+}
+#section5 .content .slide-container .slide-view .slide-wrap .slide .list-box .num {
+  position: absolute;
+  top: 20px;
+  left: 28px;
+  color: rgb(46, 50, 56);
+  font-size: 25px;
+  font-weight: 700;
+}
+#section5 .content .slide-container .slide-view .slide-wrap .slide .list-box .img-box {
+  width: 100%;
+  border-radius: 8px;
+}
+#section5 .content .slide-container .slide-view .slide-wrap .slide .list-box .img-box a {
+  display: block;
+  width: 100%;
+}
+#section5 .content .slide-container .slide-view .slide-wrap .slide .list-box .img-box a img {
+  width: 100%;
+}
+#section5 .content .slide-container .slide-view .slide-wrap .slide .list-box .text-box {
+  padding-top: 15px;
+  text-align: center;
+}
+#section5 .content .slide-container .slide-view .slide-wrap .slide .list-box .text-box .row1 span {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 7px;
+  border-radius: 3px;
+  height: 24px;
+  line-height: 24px;
+  margin-right: 8px;
+}
+#section5 .content .slide-container .slide-view .slide-wrap .slide .list-box .text-box .row1 span.할인 {
+  border: 1px solid rgb(255, 180, 180);
+  color: rgb(240, 77, 77);
+}
+#section5 .content .slide-container .slide-view .slide-wrap .slide .list-box .text-box .row1 span:nth-child(2) {
+  border: 1px solid rgb(255, 179, 132);
+  color: rgb(255, 179, 132);
+}
+#section5 .content .slide-container .slide-view .slide-wrap .slide .list-box .text-box .row1 span.타임딜 {
+  border: 1px solid rgb(244, 217, 158);
+  color: rgb(224, 156, 47);
+}
+#section5 .content .slide-container .slide-view .slide-wrap .slide .list-box .text-box .row2 {
+  margin-top: 6px;
+}
+#section5 .content .slide-container .slide-view .slide-wrap .slide .list-box .text-box .row2 h4 {
+  height: 68px;
+}
+#section5 .content .slide-container .slide-view .slide-wrap .slide .list-box .text-box .row2 h4 a {
+  font-weight: 600;
+  line-height: 23.94px;
+  letter-spacing: -0.38px;
+}
+#section5 .content .slide-container .slide-view .slide-wrap .slide .list-box .text-box .row3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+#section5 .content .slide-container .slide-view .slide-wrap .slide .list-box .text-box .row3 p:first-child {
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 13px;
+}
+#section5 .content .slide-container .slide-view .slide-wrap .slide .list-box .text-box .row3 p:nth-child(2) {
+  font-size: 15px;
+  margin-right: 13px;
+  text-decoration: line-through;
+  color: rgb(153, 153, 153);
+}
+#section5 .content .slide-container .slide-view .slide-wrap .slide .list-box .text-box .row3 p:last-child {
+  font-size: 16px;
+  color: rgb(235, 77, 114);
+}
+#section5 .click-box {
+  display: flex;
+  width: 1400px;
+  padding: 0 60px;
+  margin: 0 auto;
+}
+#section5 .click-box .col1 {
+  width: 50%;
+  display: flex;
+}
+#section5 .click-box .col1 a {
+  display: block;
+  width: 4px;
+  height: 4px;
+  font-size: 16px;
+  background: #ccc;
+  margin: 30px 4px 0 4px;
+}
+#section5 .click-box .col1 a.on {
+  width: 18px;
+  background: rgb(54, 62, 74);
+  transition: all 0.3s ease-in-out;
+}
+#section5 .click-box .col2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+#section5 .click-box .col2 a {
+  display: block;
+  margin: 10px 0 0 5px;
+}
+#section5 .click-box .col2 a.on {
+  opacity: 0.35;
+  cursor: default;
+}
+#section5 .click-box .col2 a img {
+  width: 36px;
+}

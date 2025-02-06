@@ -1,0 +1,387 @@
+#sub10Login {
+  width: 100%;
+  height: auto;
+  background: rgb(245, 246, 247);
+}
+#sub10Login .container {
+  width: 100%;
+  max-width: 540px;
+  height: auto;
+  margin: 0 auto;
+}
+#sub10Login .container .title {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0 28px 0;
+}
+#sub10Login .container .title h1 {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 50px;
+}
+#sub10Login .container .login-container {
+  width: 100%;
+  position: relative;
+  padding-top: 71px;
+}
+#sub10Login .container .login-container .mem-btn-box {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+#sub10Login .container .login-container .mem-btn-box button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 72px;
+  border: 1px solid rgb(227, 227, 227);
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(110, 118, 131);
+  cursor: pointer;
+}
+#sub10Login .container .login-container .mem-btn-box button.member-btn {
+  left: 0;
+  background: #fff;
+  border-radius: 8px 8px 0 0;
+  border-bottom: 0;
+  z-index: 3;
+  position: relative;
+}
+#sub10Login .container .login-container .mem-btn-box button.member-btn.on {
+  background: rgb(248, 249, 250);
+  z-index: 1;
+}
+#sub10Login .container .login-container .mem-btn-box button.nonmember-btn {
+  left: 50%;
+  background: rgb(248, 249, 250);
+  border-radius: 8px 8px 0 0;
+  z-index: 1;
+}
+#sub10Login .container .login-container .mem-btn-box button.nonmember-btn.on {
+  background: #fff;
+  border-bottom: 0;
+  z-index: 3;
+}
+#sub10Login .container .login-container .login-wrap {
+  width: 100%;
+  height: auto;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap {
+  width: 100%;
+  height: auto;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .login-box {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  position: relative;
+  z-index: 2;
+  border: 1px solid rgb(229, 232, 234);
+  border-radius: 0 0 8px 8px;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .login-box .login-inner {
+  width: 100%;
+  padding: 30px 30px 25px 30px;
+  text-align: center;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .login-box .login-inner form {
+  width: 100%;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .login-box .login-inner form .login {
+  width: 100%;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .login-box .login-inner form .login .idpw {
+  width: 100%;
+  position: relative;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .login-box .login-inner form .login .idpw img {
+  width: 22px;
+  position: absolute;
+  top: 19px;
+  left: 20px;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .login-box .login-inner form .login .idpw input[type=text],
+#sub10Login .container .login-container .login-wrap .member-wrap .login-box .login-inner form .login .idpw input[type=password] {
+  width: 100%;
+  height: 60px;
+  padding: 19px 20px 19px 52px;
+  border: 1px solid rgb(229, 232, 234);
+  outline-offset: -1px;
+  font-size: 16px;
+  color: rgb(58, 73, 97);
+  outline: 1px solid rgba(58, 73, 91, 0);
+  transition: all 0.3s ease-in-out;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .login-box .login-inner form .login .idpw input[type=text]:focus,
+#sub10Login .container .login-container .login-wrap .member-wrap .login-box .login-inner form .login .idpw input[type=password]:focus {
+  outline: 1px solid rgb(58, 73, 91);
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .login-box .login-inner form .login .idpw input[type=text]::-moz-placeholder, #sub10Login .container .login-container .login-wrap .member-wrap .login-box .login-inner form .login .idpw input[type=password]::-moz-placeholder {
+  color: #bbb;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .login-box .login-inner form .login .idpw input[type=text]::placeholder,
+#sub10Login .container .login-container .login-wrap .member-wrap .login-box .login-inner form .login .idpw input[type=password]::placeholder {
+  color: #bbb;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .login-box .login-inner form .login .idpw input[type=text] {
+  border-radius: 8px 8px 0 0;
+  border-bottom: 0;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .login-box .login-inner form .login .idpw input[type=password] {
+  border-radius: 0 0 8px 8px;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .login-box .login-inner form .login-save {
+  margin-top: 14px;
+  width: 100%;
+  text-align: left;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .login-box .login-inner form .login-save label {
+  cursor: pointer;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .login-box .login-inner form .login-save label input[type=checkbox] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 20px;
+  height: 20px;
+  background: url(../../../../../public/images/sub/sub10/check_icon-off.png) no-repeat 50% 50%;
+  background-size: 20px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .login-box .login-inner form .login-save label input[type=checkbox]:checked {
+  background-image: url(../../../../../public/images/sub/sub10/check_icon-on.png);
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .login-box .login-inner form .login-save label span {
+  font-size: 16px;
+  color: rgb(58, 73, 97);
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .login-box .login-inner form .login-save label:last-child {
+  margin-left: 30px;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .login-box .login-inner .login-btn-box {
+  width: 100%;
+  padding: 23px 0 14px 0;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .login-box .login-inner .login-btn-box button {
+  width: 100%;
+  height: 60px;
+  background: rgb(75, 130, 238);
+  color: rgb(249, 250, 251);
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .login-box .login-inner .login-btn-box button:hover {
+  background: rgb(51, 101, 210);
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .etc-box {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 100px;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .etc-box .find-box {
+  width: 100%;
+  padding: 20px 0 40px 0;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .etc-box .find-box a {
+  display: inline-block;
+  color: rgb(110, 118, 131);
+  font-size: 16px;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .etc-box .find-box i {
+  color: rgb(102, 102, 102);
+  font-size: 12px;
+  margin: 0 20px;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .etc-box .kakao-btn-box {
+  width: 100%;
+  height: 45px;
+  background: rgb(254, 229, 0);
+  border-radius: 6px;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .etc-box .kakao-btn-box a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .etc-box .kakao-btn-box a img {
+  width: 18px;
+  height: 18px;
+  margin-right: 7px;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .etc-box .kakao-btn-box a span {
+  color: rgb(25, 25, 25);
+  font-size: 15px;
+  font-weight: 600;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .etc-box .or-box {
+  margin: 24px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .etc-box .or-box::before {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 1px;
+  background: rgb(229, 232, 234);
+  margin: 0 15px;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .etc-box .or-box::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 1px;
+  background: rgb(229, 232, 234);
+  margin: 0 15px;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .etc-box .or-box p {
+  font-size: 12px;
+  color: rgb(170, 170, 170);
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .etc-box .sns-btn-box {
+  width: 100%;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .etc-box .sns-btn-box a {
+  display: inline-block;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .etc-box .sns-btn-box a:nth-child(2) {
+  margin: 0 50px;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .etc-box .sns-btn-box a img {
+  width: 56px;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .etc-box .info-box {
+  width: 100%;
+  margin-top: 40px;
+  color: rgb(110, 118, 131);
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .etc-box .info-box strong {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 230%;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap .etc-box .info-box p {
+  line-height: 140%;
+}
+#sub10Login .container .login-container .login-wrap .member-wrap.on {
+  display: none;
+}
+#sub10Login .container .login-container .login-wrap .nonmember-wrap {
+  padding-bottom: 325px;
+  display: none;
+}
+#sub10Login .container .login-container .login-wrap .nonmember-wrap .order-info-box {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  position: relative;
+  z-index: 2;
+  border: 1px solid rgb(229, 232, 234);
+  border-radius: 0 0 8px 8px;
+}
+#sub10Login .container .login-container .login-wrap .nonmember-wrap .order-info-box .order-info-inner {
+  width: 100%;
+  padding: 30px 30px 25px 30px;
+  text-align: center;
+}
+#sub10Login .container .login-container .login-wrap .nonmember-wrap .order-info-box .order-info-inner form {
+  width: 100%;
+}
+#sub10Login .container .login-container .login-wrap .nonmember-wrap .order-info-box .order-info-inner form .order-info {
+  width: 100%;
+  position: relative;
+}
+#sub10Login .container .login-container .login-wrap .nonmember-wrap .order-info-box .order-info-inner form .order-info input[type=text] {
+  width: 100%;
+  height: 60px;
+  padding: 19px 20px 19px 20px;
+  border: 1px solid rgb(229, 232, 234);
+  outline-offset: -1px;
+  font-size: 16px;
+  color: rgb(58, 73, 97);
+  outline: 1px solid rgba(58, 73, 91, 0);
+  transition: all 0.3s ease-in-out;
+}
+#sub10Login .container .login-container .login-wrap .nonmember-wrap .order-info-box .order-info-inner form .order-info input[type=text]:focus {
+  outline: 1px solid rgb(58, 73, 91);
+}
+#sub10Login .container .login-container .login-wrap .nonmember-wrap .order-info-box .order-info-inner form .order-info input[type=text]::-moz-placeholder {
+  color: #bbb;
+}
+#sub10Login .container .login-container .login-wrap .nonmember-wrap .order-info-box .order-info-inner form .order-info input[type=text]::placeholder {
+  color: #bbb;
+}
+#sub10Login .container .login-container .login-wrap .nonmember-wrap .order-info-box .order-info-inner form .order-info input[type=text]:first-child {
+  border-radius: 8px 8px 0 0;
+  border-bottom: 0;
+}
+#sub10Login .container .login-container .login-wrap .nonmember-wrap .order-info-box .order-info-inner form .order-info input[type=text]:last-child {
+  border-radius: 0 0 8px 8px;
+}
+#sub10Login .container .login-container .login-wrap .nonmember-wrap .order-info-box .order-info-inner .submit-btn-box {
+  width: 100%;
+  padding: 23px 0 14px 0;
+}
+#sub10Login .container .login-container .login-wrap .nonmember-wrap .order-info-box .order-info-inner .submit-btn-box button {
+  width: 100%;
+  height: 60px;
+  background: rgb(75, 130, 238);
+  color: rgb(249, 250, 251);
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#sub10Login .container .login-container .login-wrap .nonmember-wrap .order-info-box .order-info-inner .submit-btn-box button:hover {
+  background: rgb(51, 101, 210);
+}
+#sub10Login .container .login-container .login-wrap .nonmember-wrap .order-info-box .order-info-inner .info-box {
+  width: 100%;
+  text-align: left;
+}
+#sub10Login .container .login-container .login-wrap .nonmember-wrap .order-info-box .order-info-inner .info-box p {
+  color: rgb(110, 118, 131);
+}
+#sub10Login .container .login-container .login-wrap .nonmember-wrap .order-info-box .order-info-inner .bar {
+  width: 100%;
+  height: 1px;
+  background: rgb(229, 232, 234);
+  margin-top: 27px;
+}
+#sub10Login .container .login-container .login-wrap .nonmember-wrap .order-info-box .order-info-inner .signup-box {
+  width: 100%;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#sub10Login .container .login-container .login-wrap .nonmember-wrap .order-info-box .order-info-inner .signup-box span {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(54, 62, 74);
+}
+#sub10Login .container .login-container .login-wrap .nonmember-wrap .order-info-box .order-info-inner .signup-box a {
+  display: block;
+  height: 34px;
+  padding: 7px 13px;
+  background: rgb(222, 226, 234);
+  border-radius: 4px;
+  font-weight: 500;
+  color: rgb(54, 62, 74);
+}
+#sub10Login .container .login-container .login-wrap .nonmember-wrap.on {
+  display: block;
+}

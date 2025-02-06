@@ -1,0 +1,21 @@
+#section4 {
+  width: 100%;
+  background: #f5f6f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#section4 .banner_box {
+  margin-top: 44px;
+  margin-bottom: 44px;
+  width: 100%;
+  max-width: 1280px;
+}
+#section4 .banner_box a {
+  display: block;
+  width: 1280px;
+}
+#section4 .banner_box a img {
+  width: 100%;
+  border-radius: 8px;
+}

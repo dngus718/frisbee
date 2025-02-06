@@ -1,0 +1,197 @@
+@import url("./Sub.scss");
+#sub1 {
+  width: 100%;
+  height: auto;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+#sub1 #section1 {
+  width: 100%;
+  height: auto;
+  padding: 50px 0 120px 0;
+}
+#sub1 #section1 .main-menu {
+  width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 26px;
+}
+#sub1 #section1 .main-menu .title {
+  width: 100%;
+  margin-bottom: 23px;
+}
+#sub1 #section1 .main-menu .title h4 {
+  font-size: 34px;
+  font-weight: 600;
+  color: rgb(54, 62, 74);
+}
+#sub1 #section1 .main-menu .content {
+  width: 100%;
+}
+#sub1 #section1 .main-menu .content ul {
+  display: flex;
+}
+#sub1 #section1 .main-menu .content ul li a {
+  display: block;
+}
+#sub1 #section1 .main-menu .content ul li a img {
+  width: 180px;
+  margin-bottom: 30px;
+}
+#sub1 #section1 .main-menu .content ul li a p {
+  text-align: center;
+  color: rgb(32, 32, 32);
+  font-size: 18px;
+  font-weight: 700;
+}
+#sub1 #section1 .sub-open-bar {
+  height: 1px;
+  background: rgb(229, 232, 234);
+  position: relative;
+}
+#sub1 #section1 .sub-open-bar::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: url(../../../../../public/images/sub/sub1/sub-down.png) no-repeat 50% 50%;
+  background-size: 24px auto;
+  transform: translate(-50%, -50%);
+}
+#sub1 #section1 .sub-open-bar.on::after {
+  background-image: url("../../../../../public/images/sub/sub1/sub-up.png");
+}
+#sub1 #section1 .sub-menu {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease-in-out;
+  background: rgb(245, 245, 245);
+}
+#sub1 #section1 .sub-menu.on {
+  height: 285px;
+}
+#sub1 #section1 .sub-menu .sub-container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  padding: 29px 0 32px 0;
+}
+#sub1 #section1 .sub-menu .sub-container ul {
+  width: 180px;
+}
+#sub1 #section1 .sub-menu .sub-container ul li a {
+  display: block;
+  text-align: center;
+  color: rgb(153, 153, 153);
+  line-height: 28px;
+}
+#sub1 #section1 .sub-menu .sub-container ul li a:hover {
+  color: #333;
+}
+#sub1 #section2 {
+  width: 100%;
+  height: 814px;
+  position: relative;
+  padding-bottom: 120px;
+  background-attachment: scroll;
+}
+#sub1 #section2 .background {
+  width: 100%;
+  height: 100%;
+  background: url(../../../../../public/images/sub/sub1/apple_fix_bg.png) no-repeat 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+#sub1 #section2 .content {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 120px;
+  position: relative;
+  z-index: 2;
+}
+#sub1 #section2 .content .slide-container {
+  width: 100%;
+}
+#sub1 #section2 .content .slide-container .slide-view {
+  width: 100%;
+}
+#sub1 #section2 .content .slide-container .slide-view .slide-wrap {
+  width: 600%;
+  display: flex;
+  position: relative;
+  transform: translateX(0px);
+}
+#sub1 #section2 .content .slide-container .slide-view .slide-wrap .slide {
+  width: 426.666px;
+  padding: 0 50px 40px 0;
+  cursor: pointer;
+}
+#sub1 #section2 .content .slide-container .slide-view .slide-wrap .slide:first-child {
+  margin-left: 50px;
+}
+#sub1 #section2 .content .slide-container .slide-view .slide-wrap .slide a {
+  pointer-events: none;
+  display: block;
+  width: 100%;
+  height: 520px;
+  position: relative;
+}
+#sub1 #section2 .content .slide-container .slide-view .slide-wrap .slide a img {
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+}
+#sub1 #section2 .content .slide-container .slide-view .slide-wrap .slide a .text-box {
+  position: absolute;
+  top: 59px;
+  left: 50px;
+  color: #fff;
+}
+#sub1 #section2 .content .slide-container .slide-view .slide-wrap .slide a .text-box strong {
+  display: block;
+  font-size: 32px;
+  line-height: 47px;
+  margin-bottom: 6px;
+}
+#sub1 #section2 .content .slide-container .slide-view .slide-wrap .slide a .text-box p {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+#sub1 #section2 .content .slide-container .slide-view .slide-wrap .slide a .text-box span {
+  font-size: 12px;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+#sub1 #section2 .content .slide-container .slide-view .slide-wrap .slide:hover a .text-box span {
+  opacity: 1;
+}
+#sub1 #section2 .content .slide-container .click-box {
+  width: 100%;
+  height: 4px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+#sub1 #section2 .content .slide-container .click-box a {
+  display: block;
+  width: 4px;
+  height: 4px;
+  font-size: 16px;
+  background: rgb(54, 62, 74);
+  opacity: 0.2;
+  margin: 0 4px;
+}
+#sub1 #section2 .content .slide-container .click-box a.on {
+  width: 18px;
+  background: rgb(54, 62, 74);
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
